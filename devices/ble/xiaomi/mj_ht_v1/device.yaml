@@ -1,0 +1,18 @@
+kind: device
+
+id: xiaomi_mj_ht_v1
+
+name: Xiaomi Mijia Bluetooth Temperature Humidity Sensor
+model: MJ-HT-V1
+
+manufacturer:
+  ref: organizations.xiaomi
+
+protocols:
+  - ble
+
+description: The Xiaomi Mijia Bluetooth Temperature & Humidity Sensor (MJ-HT-V1) is an ultra-compact, budget-friendly smart home sensor. It features a minimalist, circular design with a low-power digital LCD display that outputs real-time climate data alongside a simple comfort emoticon.
+
+images:
+  - path: assets/images/xiaomi_mj_ht_v1.jpg
+    caption: Xiaomi Mijia Bluetooth Temperature & Humidity Sensor (MJ-HT-V1)

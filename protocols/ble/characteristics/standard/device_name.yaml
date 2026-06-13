@@ -1,0 +1,19 @@
+kind: characteristic
+id: device_name
+namespace: ble.characteristics.standard
+name: Device Name
+uuid: 0x2A00
+defined_by:
+  ref: organizations.bluetooth_sig
+description: >
+  The Device Name characteristic contains the user-friendly
+  name of the device. It is typically displayed by BLE
+  scanners and operating systems when discovering nearby
+  devices.
+
+properties:
+  - read
+  - write
+
+value:
+  type: string

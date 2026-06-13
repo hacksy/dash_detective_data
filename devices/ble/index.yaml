@@ -1,0 +1,10 @@
+kind: category
+
+id: protocols.ble
+
+name: Bluetooth Low Energy
+
+description: >
+  Bluetooth Low Energy protocol definitions and related entities.
+
+order: 10

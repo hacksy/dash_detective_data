@@ -1,0 +1,31 @@
+kind: dataset
+
+id: stages
+
+schema:
+  fields:
+    - id: string
+    - stage_id: uint8
+  key: stage_id
+
+entries:
+  - id: intro_stage
+    stage_id: 0x00
+
+  - id: genosha_forest
+    stage_id: 0x01
+
+  - id: tusk
+    stage_id: 0x02
+
+  - id: apocalypse
+    stage_id: 0x03
+
+  - id: omega_red
+    stage_id: 0x04
+
+  - id: juggernaut
+    stage_id: 0x05
+
+  - id: final_stage
+    stage_id: 0x06

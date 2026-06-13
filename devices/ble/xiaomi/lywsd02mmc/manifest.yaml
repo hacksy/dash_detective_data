@@ -1,0 +1,7 @@
+kind: manifest
+id: lywsd02mmc
+schema_version: 1
+project_type: device
+entry_point: device.yaml
+publication:
+  visibility: public

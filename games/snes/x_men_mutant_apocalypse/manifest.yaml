@@ -1,0 +1,7 @@
+kind: manifest
+id: x_men_mutan_apocalypse
+schema_version: 1
+project_type: game
+entry_point: game.yaml
+publication:
+  visibility: public

@@ -1,0 +1,30 @@
+kind: variant
+
+id: eu
+name: X-Men - Mutant Apocalypse (Europe)
+verified: false
+region: eu
+languages:
+  - en
+
+roms:
+  - file:
+      name: X-Men - Mutant Apocalypse (Europe).sfc
+      size: 2097152
+
+    hashes:
+      crc32: 8e4ab536
+      md5: 20ef356938af10ead37a3ab5105a7a67
+      sha1: 3805bb70e4c6d4d3ed4164801c73aa355bb02e16
+      sha256: 4d77a525a17193b031911645ee9cec47a7a618932da7f91ffef3bcf5116472f1
+
+    distributions:
+      - key: x_men_mutant_apocalypse_eu
+        identifiers:
+          serial: SNSP-AXMP-EUR
+          no_intro: 3355
+        assets:
+          images:
+            box_art:
+              front: assets/images/box_art/eu/372909_front.jpg
+              back: assets/images/box_art/eu/372909_back.jpg

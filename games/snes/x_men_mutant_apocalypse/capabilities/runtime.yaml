@@ -1,0 +1,56 @@
+kind: runtime
+
+id: password_runtime
+
+capabilities: password
+
+codec:
+  id: xmen_password_codec
+
+types:
+  state: capability.types.password_state
+  format: types.password
+
+struct:
+  id: password
+
+pipeline:
+  encode:
+    steps:
+      - id: load_state
+        input: state
+
+      - id: build_struct
+        from: state
+        to: struct
+
+      - id: encode_format
+        from: struct
+        to: format
+    output: format
+
+  decode:
+    steps:
+      - id: parse_format
+        input: format
+        to: struct
+
+      - id: extract_state
+        from: struct
+        to: state
+
+    output: state
+
+  preset:
+    steps:
+      - id: load_preset
+        input: preset_id
+        output: state
+
+      - id: derive_format
+        from: state
+        to: format
+
+    output:
+      - state
+      - format

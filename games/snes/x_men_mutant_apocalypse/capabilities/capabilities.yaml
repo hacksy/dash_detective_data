@@ -1,0 +1,38 @@
+kind: capability
+id: passwords
+
+operations:
+  - encode
+  - decode
+  - preset
+
+parameters:
+  encode:
+    input:
+      - id: state
+        ref: capability.types.password_state
+
+    output:
+      - id: password
+        ref: types.password
+
+  decode:
+    input:
+      - id: password
+        ref: types.password
+
+    output:
+      - id: state
+        ref: capability.types.password_state
+
+  preset:
+    input:
+      - id: preset_id
+        required: false
+
+    output:
+      - id: state
+        ref: capability.types.password_state
+
+      - id: password
+        ref: types.password

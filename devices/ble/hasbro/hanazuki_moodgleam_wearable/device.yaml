@@ -1,0 +1,11 @@
+kind: device
+
+id: hanazuki_moodgleam_wearable
+
+name: Hanazuki Moodgleam Wearable
+
+manufacturer:
+  ref: organizations.hasbro
+
+protocols:
+  - ble

@@ -1,0 +1,33 @@
+kind: dataset
+id: symbols
+
+schema:
+  fields:
+    - id: string
+    - code: uint8
+  key: code
+
+entries:
+  - id: cyclops
+    code: 0x01
+
+  - id: wolverine
+    code: 0x02
+
+  - id: psylocke
+    code: 0x03
+
+  - id: gambit
+    code: 0x04
+
+  - id: beast
+    code: 0x05
+
+  - id: xavier
+    code: 0x06
+
+  - id: apocalypse
+    code: 0x07
+
+  - id: magneto
+    code: 0x08

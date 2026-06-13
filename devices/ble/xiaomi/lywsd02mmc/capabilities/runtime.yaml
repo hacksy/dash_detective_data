@@ -1,0 +1,93 @@
+kind: runtime
+
+capability:
+  ref: capabilities.climate_monitor
+
+operations:
+  read_device_name:
+    steps:
+      - read_characteristic:
+          ref: ble.characteristics.standard.device_name
+
+      - decode_string:
+          output: device_name
+
+  write_device_name:
+    steps:
+      - encode_string:
+          input: device_name
+
+      - write_characteristic:
+          ref: ble.characteristics.standard.device_name
+
+  read_temperature:
+    steps:
+      - read_characteristic:
+          ref: ble.devices.xiaomi.lywsd02mmc.characteristics.temperature
+
+      - decode_temperature:
+          output: temperature
+
+  read_humidity:
+    steps:
+      - read_characteristic:
+          ref: ble.devices.xiaomi.lywsd02mmc.characteristics.humidity
+
+      - decode_humidity:
+          output: humidity
+
+  read_battery:
+    steps:
+      - read_characteristic:
+          ref: ble.devices.xiaomi.lywsd02mmc.characteristics.battery
+
+      - decode_battery_level:
+          output: battery_level
+
+  read_temperature_unit:
+    steps:
+      - read_characteristic:
+          ref: ble.devices.xiaomi.lywsd02mmc.characteristics.temperature_unit
+
+      - decode_temperature_unit:
+          output: temperature_unit
+
+  write_temperature_unit:
+    steps:
+      - encode_temperature_unit:
+          input: temperature_unit
+
+      - write_characteristic:
+          ref: ble.devices.xiaomi.lywsd02mmc.characteristics.temperature_unit
+
+  read_device_time:
+    steps:
+      - read_characteristic:
+          ref: ble.devices.xiaomi.lywsd02mmc.characteristics.device_time
+
+      - decode_device_time:
+          output: device_time
+
+  write_device_time:
+    steps:
+      - encode_device_time:
+          input: device_time
+
+      - write_characteristic:
+          ref: ble.devices.xiaomi.lywsd02mmc.characteristics.device_time
+
+  read_device_time_offset:
+    steps:
+      - read_characteristic:
+          ref: ble.devices.xiaomi.lywsd02mmc.characteristics.time_offset
+
+      - decode_time_offset:
+          output: device_time_offset
+
+  write_device_time_offset:
+    steps:
+      - encode_time_offset:
+          input: device_time_offset
+
+      - write_characteristic:
+          ref: ble.devices.xiaomi.lywsd02mmc.characteristics.time_offset

@@ -1,0 +1,17 @@
+kind: service
+id: battery_service
+namespace: ble.services.standard
+name: Battery Service
+uuid: 0x180F
+defined_by:
+  ref: organizations.bluetooth_sig
+
+description: >
+  The Battery Service exposes battery level information
+  for the device.
+
+characteristics:
+  - ref: ble.characteristics.standard.battery_level
+    presence: mandatory
+  - ref: ble.characteristics.standard.battery_power_state
+    presence: optional

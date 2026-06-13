@@ -1,0 +1,17 @@
+kind: repositories
+
+entries:
+  - url: https://github.com/dsltip/Xiaomi_MJ_HT_V1_cc2530
+    notes: CC2530 firmware implementation
+
+  - url: https://github.com/algirdasc/xiaomi-ble-mqtt
+    notes: BLE to MQTT bridge
+
+  - url: https://github.com/pvvx/ATC_MiThermometer
+    notes: Custom firmware
+
+  - url: https://github.com/andywcoder/ble-scripts/tree/master/MJ-HT-V1
+    notes: BLE scripts and packet decoding
+
+  - url: https://github.com/mplinuxgeek/Xiaomi-BLE-Temperature-and-Humidity-sensor
+    notes: Python tooling

@@ -1,0 +1,52 @@
+kind: metadata
+
+dataset: symbols
+
+entries:
+  cyclops:
+    name: Cyclops
+    display:
+      type: image
+      image: assets/images/symbols/cyclops.png
+
+  wolverine:
+    name: Wolverine
+    display:
+      type: image
+      image: assets/images/symbols/wolverine.png
+
+  psylocke:
+    name: Psylocke
+    display:
+      type: image
+      image: assets/images/symbols/psylocke.png
+
+  gambit:
+    name: Gambit
+    display:
+      type: image
+      image: assets/images/symbols/gambit.png
+
+  beast:
+    name: Beast
+    display:
+      type: image
+      image: assets/images/symbols/beast.png
+
+  xavier:
+    name: Professor Xavier
+    display:
+      type: image
+      image: assets/images/symbols/xavier.png
+
+  apocalypse:
+    name: Apocalypse
+    display:
+      type: image
+      image: assets/images/symbols/apocalypse.png
+
+  magneto:
+    name: Magneto
+    display:
+      type: image
+      image: assets/images/symbols/magneto.png

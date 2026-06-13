@@ -1,0 +1,31 @@
+kind: service
+id: device_information
+namespace: ble.services.standard
+name: Device Information
+uuid: 0x180A
+defined_by:
+  ref: organizations.bluetooth_sig
+description: >
+  The Device Information service exposes device-specific information
+  such as manufacturer name, model number, serial number, and
+  firmware revision information.
+
+characteristics:
+  - ref: ble.characteristics.standard.manufacturer_name
+    presence: optional
+  - ref: ble.characteristics.standard.model_number
+    presence: optional
+  - ref: ble.characteristics.standard.serial_number
+    presence: optional
+  - ref: ble.characteristics.standard.hardware_revision
+    presence: optional
+  - ref: ble.characteristics.standard.firmware_revision
+    presence: optional
+  - ref: ble.characteristics.standard.software_revision
+    presence: optional
+  - ref: ble.characteristics.standard.system_id
+    presence: optional
+  - ref: ble.characteristics.standard.ieee_11073_20601_regulatory_certification_data_list
+    presence: optional
+  - ref: ble.characteristics.standard.pnp_id
+    presence: optional

@@ -1,0 +1,22 @@
+kind: service
+id: generic_access
+namespace: ble.services.standard
+name: Generic Access
+uuid: 0x1800
+defined_by:
+  ref: organizations.bluetooth_sig
+
+description: >
+  The Generic Access service exposes basic device information
+  such as device name, appearance, and preferred connection
+  parameters.
+
+characteristics:
+  - ref: ble.characteristics.standard.device_name
+    presence: mandatory
+  - ref: ble.characteristics.standard.appearance
+    presence: mandatory
+  - ref: ble.characteristics.standard.peripheral_preferred_connection_parameters
+    presence: optional
+  - ref: ble.characteristics.standard.central_address_resolution
+    presence: optional

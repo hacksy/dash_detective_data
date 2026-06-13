@@ -1,0 +1,48 @@
+kind: ble_profile
+
+services:
+  - ref: ble.services.standard.generic_access
+    characteristics:
+      - ref: ble.characteristics.standard.device_name
+      - ref: ble.characteristics.standard.appearance
+      - ref: ble.characteristics.standard.peripheral_preferred_connection_parameters
+
+  - ref: ble.services.standard.generic_attribute
+    characteristics:
+      - ref: ble.characteristics.standard.service_changed
+
+  - ref: ble.services.standard.device_information
+    characteristics:
+      - ref: ble.characteristics.standard.system_id
+      - ref: ble.characteristics.standard.model_number_string
+      - ref: ble.characteristics.standard.serial_number_string
+      - ref: ble.characteristics.standard.firmware_revision_string
+      - ref: ble.characteristics.standard.hardware_revision_string
+      - ref: ble.characteristics.standard.software_revision_string
+      - ref: ble.characteristics.standard.manufacturer_name_string
+
+  - ref: devices.ble.xiaomi.service_ebe0ccb0_7a0a
+    characteristics:
+      - ref: ble.devices.xiaomi.lywsd02mmc.characteristics.characteristic_ebe0ccb7_7a0a
+      - ref: ble.devices.xiaomi.lywsd02mmc.characteristics.characteristic_ebe0ccb9_7a0a
+      - ref: ble.devices.xiaomi.lywsd02mmc.characteristics.characteristic_ebe0ccba_7a0a
+      - ref: ble.devices.xiaomi.lywsd02mmc.characteristics.characteristic_ebe0ccbb_7a0a
+      - ref: ble.devices.xiaomi.lywsd02mmc.characteristics.characteristic_ebe0ccbc_7a0a
+      - ref: ble.devices.xiaomi.lywsd02mmc.characteristics.characteristic_ebe0ccbe_7a0a
+      - ref: ble.devices.xiaomi.lywsd02mmc.characteristics.characteristic_ebe0ccc1_7a0a
+      - ref: ble.devices.xiaomi.lywsd02mmc.characteristics.characteristic_ebe0ccc2_7a0a
+      - ref: ble.devices.xiaomi.lywsd02mmc.characteristics.characteristic_ebe0ccc4_7a0a
+      - ref: ble.devices.xiaomi.lywsd02mmc.characteristics.characteristic_ebe0ccc8_7a0a
+      - ref: ble.devices.xiaomi.lywsd02mmc.characteristics.characteristic_ebe0ccd4_7a0a
+      - ref: ble.devices.xiaomi.lywsd02mmc.characteristics.characteristic_ebe0ccd7_7a0a
+      - ref: ble.devices.xiaomi.lywsd02mmc.characteristics.characteristic_ebe0ccd8_7a0a
+      - ref: ble.devices.xiaomi.lywsd02mmc.characteristics.characteristic_ebe0cca1_7a0a
+      - ref: ble.devices.xiaomi.lywsd02mmc.characteristics.characteristic_ebe0cca2_7a0a
+      - ref: ble.devices.xiaomi.lywsd02mmc.characteristics.characteristic_ebe0cca3_7a0a
+      - ref: ble.devices.xiaomi.lywsd02mmc.characteristics.characteristic_ebe0cca4_7a0a
+
+  - ref: devices.ble.xiaomi.service_fafafa00_fafa
+    characteristics:
+      - ref: ble.devices.xiaomi.lywsd02mmc.characteristics.characteristic_fafafa01_fafa
+
+  - ref: ble.services.vendor.xiaomi.mi_beacon

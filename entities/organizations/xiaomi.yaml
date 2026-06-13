@@ -1,0 +1,9 @@
+kind: organization
+
+id: xiaomi
+name: Xiaomi Corporation
+alternative:
+  - Xiaomi Inc.
+  - 小米集团
+country: China
+founded: 2010

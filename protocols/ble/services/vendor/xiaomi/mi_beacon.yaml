@@ -1,0 +1,16 @@
+kind: service
+id: mi_beacon
+namespace: ble.services.xiaomi
+name: Xiaomi MiBeacon Service
+uuid: 0xFE95
+defined_by:
+  ref: organizations.xiaomi
+
+description: >
+  The Xiaomi MiBeacon Service exposes information about the device.
+
+characteristics:
+  # - ref: ble.characteristics.standard.battery_level
+  #   presence: mandatory
+  # - ref: ble.characteristics.standard.battery_power_state
+  #   presence: optional

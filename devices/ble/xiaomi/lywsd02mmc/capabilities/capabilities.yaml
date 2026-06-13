@@ -1,0 +1,62 @@
+kind: capability
+
+id: climate_monitor
+
+operations:
+  read_device_name:
+    output:
+      - id: device_name
+        ref: types.name
+
+  write_device_name:
+    warnings:
+      - May break connection with official apps.
+
+    input:
+      - id: device_name
+        ref: types.name
+
+  read_temperature:
+    output:
+      - id: temperature
+        ref: types.temperature
+
+  read_humidity:
+    output:
+      - id: humidity
+        ref: types.humidity
+
+  read_temperature_unit:
+    output:
+      - id: temperature_unit
+        ref: types.temperature_unit
+
+  write_temperature_unit:
+    input:
+      - id: temperature_unit
+        ref: types.temperature_unit
+
+  read_battery:
+    output:
+      - id: battery_level
+        ref: types.battery_level
+
+  read_device_time:
+    output:
+      - id: device_time
+        ref: types.device_time
+
+  write_device_time:
+    input:
+      - id: device_time
+        ref: types.device_time
+
+  read_device_time_offset:
+    output:
+      - id: device_time_offset
+        ref: types.device_time_offset
+
+  write_device_time_offset:
+    input:
+      - id: device_time_offset
+        ref: types.device_time_offset

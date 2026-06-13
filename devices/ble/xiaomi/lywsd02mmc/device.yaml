@@ -1,0 +1,17 @@
+kind: device
+
+id: lywsd02mmc
+name: Xiaomi Mijia Bluetooth Temperature & Humidity Sensor (LYWS02MMC)
+model: LYWS02MMC
+manufacturer:
+  ref: organizations.xiaomi
+
+protocols:
+  - ble
+
+description: >
+  The Xiaomi Mijia Bluetooth Temperature & Humidity Sensor (LYWS02) is an ultra-compact, budget-friendly smart home sensor. It features a minimalist, rectangular design with a low-power digital LCD display that outputs real-time climate data alongside a simple comfort emoticon.
+
+images:
+  - path: assets/images/xiaomi_lywsd02mmc.jpg
+    caption: Xiaomi Mijia Bluetooth Temperature & Humidity Sensor (LYWS02MMC)

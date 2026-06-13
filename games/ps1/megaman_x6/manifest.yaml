@@ -1,0 +1,7 @@
+kind: manifest
+id: megaman_x6
+schema_version: 1
+project_type: game
+entry_point: game.yaml
+publication:
+  visibility: public

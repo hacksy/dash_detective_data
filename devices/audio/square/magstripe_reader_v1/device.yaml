@@ -1,0 +1,16 @@
+kind: device
+
+id: square_magstripe_reader_v1
+name: Square Reader for Magstripe (Headset Jack, v1)
+manufacturer:
+  ref: organizations.square
+
+model: S053
+
+protocols:
+  - audio
+
+description: >
+  First-generation Square card reader that connects
+  through a 3.5 mm headset jack and reads magnetic
+  stripe payment cards.

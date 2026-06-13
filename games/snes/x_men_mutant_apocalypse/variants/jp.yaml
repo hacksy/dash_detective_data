@@ -1,0 +1,30 @@
+kind: variant
+
+id: jp
+name: X-Men - Mutant Apocalypse (Japan)
+verified: false
+region: jp
+languages:
+  - ja
+
+roms:
+  - file:
+      name: X-Men - Mutant Apocalypse (Japan).sfc
+      size: 2097152
+
+    hashes:
+      crc32: 4f02a304
+      md5: 630be0968ab1c7da7ec78725873ea20e
+      sha1: 5ab4c41337d4fed245ebc73eec9f300af123db62
+      sha256: 36937994870e09f9d1d06c8a0804c6d98f4bdf40fee02c8c314bac0b73815e80
+
+    distributions:
+      - key: x_men_mutant_apocalypse_jp
+        identifiers:
+          no_intro: 3356
+          serial: SHVC-AXMJ-JPN
+        assets:
+          images:
+            box_art:
+              front: assets/images/box_art/jp/51512_front.jpg
+              back: assets/images/box_art/jp/51512_back.jpg

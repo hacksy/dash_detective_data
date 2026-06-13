@@ -1,0 +1,19 @@
+kind: category
+
+id: file_formats.codes
+
+name: Machine Readable Codes
+
+description: >
+  Machine-readable visual encodings designed to store
+  structured data in a printable format.
+
+tags:
+  - encoding
+  - visual
+
+parent:
+  ref: categories.file_formats
+
+publication:
+  visibility: public

@@ -1,0 +1,7 @@
+kind: manifest
+id: hanazuki_moodgleam_wearable
+schema_version: 1
+project_type: device
+entry_point: device.yaml
+publication:
+  visibility: public

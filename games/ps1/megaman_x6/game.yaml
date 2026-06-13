@@ -1,0 +1,25 @@
+kind: game
+
+id: megaman_x6
+
+name: Mega Man X6
+
+developers:
+  - capcom
+
+publishers:
+  - capcom
+
+franchises:
+  - mega_man_x
+
+series:
+  - mega_man_x
+
+platforms:
+  - play_station
+
+genres:
+  - action
+  - platformer
+  - 2d

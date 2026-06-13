@@ -1,0 +1,22 @@
+kind: service
+id: generic_attribute
+namespace: ble.services.standard
+name: Generic Attribute
+uuid: 0x1801
+defined_by:
+  ref: organizations.bluetooth_sig
+
+description: >
+  The Generic Attribute service is a mandatory BLE service
+  used to notify connected clients when the server's
+  attribute database changes.
+
+characteristics:
+  - ref: ble.characteristics.standard.service_changed
+    presence: conditional
+  - ref: ble.characteristics.standard.client_supported_features
+    presence: optional
+  - ref: ble.characteristics.standard.database_hash
+    presence: optional
+  - ref: ble.characteristics.standard.server_supported_features
+    presence: optional

@@ -1,0 +1,25 @@
+kind: metadata
+
+dataset: stages
+
+entries:
+  intro_stage:
+    name: Intro Stage
+
+  genosha_forest:
+    name: Genosha Forest
+
+  tusk:
+    name: Battle with Tusk
+
+  apocalypse:
+    name: Apocalypse's Lair
+
+  omega_red:
+    name: Simulated Battle with Omega Red
+
+  juggernaut:
+    name: Simulated Battle with Juggernaut
+
+  final_stage:
+    name: Avalon

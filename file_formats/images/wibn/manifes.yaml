@@ -1,0 +1,7 @@
+kind: manifest
+id: wwibn
+schema_version: 1
+
+entry_point: formats.yaml
+
+modules:

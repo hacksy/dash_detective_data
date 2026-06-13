@@ -1,0 +1,5 @@
+kind: manifest
+id: square_magstripe_reader_v1
+schema_version: 1
+project_type: device
+entry_point: device.yaml

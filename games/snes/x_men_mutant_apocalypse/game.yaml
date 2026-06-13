@@ -1,0 +1,25 @@
+kind: game
+
+id: x_men_mutant_apocalypse
+
+name: "X-Men: Mutant Apocalypse"
+
+developers:
+  - capcom
+
+publishers:
+  - capcom
+
+franchises:
+  - x_men
+
+series:
+  - x_men
+
+platforms:
+  - super_nintendo
+
+genres:
+  - action
+  - platformer
+  - side_scrolling
