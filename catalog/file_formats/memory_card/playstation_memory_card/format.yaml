@@ -1,0 +1,12 @@
+kind: file_format
+id: playstation_memory_card
+name: PlayStation Memory Card
+extensions:
+  - mcr
+  - mcd
+  - mc
+container: true
+slots:
+  count: 15
+entry:
+  type: memory_card_entry

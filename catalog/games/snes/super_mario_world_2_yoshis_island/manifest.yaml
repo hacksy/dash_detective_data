@@ -1,0 +1,7 @@
+kind: manifest
+id: super_mario_world_2_yoshis_island
+schema_version: 1
+project_type: game
+entry_point: game.yaml
+publication:
+  visibility: public

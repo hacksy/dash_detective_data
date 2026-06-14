@@ -1,0 +1,7 @@
+kind: manifest
+id: playstation_memory_card
+schema_version: 1
+project_type: file_format
+entry_point: format.yaml
+publication:
+  visibility: public
