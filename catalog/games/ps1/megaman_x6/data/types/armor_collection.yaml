@@ -1,0 +1,8 @@
+kind: type
+id: armor_collection
+type: bitfield
+storage: uint8
+bitfield:
+  map:
+    ref: datasets.armor_pieces
+    bit: part_id

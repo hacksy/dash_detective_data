@@ -1,0 +1,8 @@
+kind: type
+
+id: symbol
+storage: uint8
+item:
+  map:
+    ref: datasets.symbols
+    key: code

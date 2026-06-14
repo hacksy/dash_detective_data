@@ -1,0 +1,14 @@
+kind: type
+
+id: parts
+
+type: bitfield
+
+storage: uint32
+
+bits:
+  offset: 3
+
+  map:
+    ref: datasets.parts
+    bit: part_id

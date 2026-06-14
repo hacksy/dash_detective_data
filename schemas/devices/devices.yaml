@@ -1,0 +1,87 @@
+kind: schema
+
+id: device
+
+description: >
+  Defines a physical device and its identifying metadata.
+  Protocol-specific information is defined separately through
+  protocol profiles.
+
+fields:
+
+  kind:
+    type: string
+    required: true
+    const: device
+    description: >
+      Identifies this document as a device definition.
+
+  id:
+    type: string
+    required: true
+    description: >
+      Unique identifier for the device.
+
+  name:
+    type: string
+    required: true
+    description: >
+      Human-readable device name.
+
+  model:
+    type: string
+    required: false
+    description: >
+      Manufacturer model identifier.
+
+  manufacturer:
+    type: object
+    required: true
+    description: >
+      Organization responsible for manufacturing the device.
+
+    fields:
+      ref:
+        type: string
+        required: true
+        description: >
+          Reference to an organization definition.
+
+  protocols:
+    type: list
+    required: false
+    description: >
+      Communication protocols supported by the device.
+
+    items:
+      type: string
+      description: >
+        Protocol identifier.
+
+  description:
+    type: string
+    required: false
+    description: >
+      Detailed description of the device.
+
+  images:
+    type: list
+    required: false
+    description: >
+      Images associated with the device.
+
+    items:
+      type: object
+
+      fields:
+        path:
+          type: string
+          required: true
+          description: >
+            Relative path to the image file.
+
+        caption:
+          type: string
+          required: false
+          description: >
+            Human-readable image caption.

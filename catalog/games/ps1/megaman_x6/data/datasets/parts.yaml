@@ -1,0 +1,82 @@
+kind: dataset
+
+id: parts
+
+schema:
+  fields:
+    - id: string
+    - part_id: uint8
+  key: part_id
+
+entries:
+  - id: speedster
+    part_id: 0x00
+
+  - id: jumper
+    part_id: 0x01
+
+  - id: hyper_dash
+    part_id: 0x02
+
+  - id: energy_saver
+    part_id: 0x03
+
+  - id: super_recover
+    part_id: 0x04
+
+  - id: buster_plus
+    part_id: 0x05
+
+  - id: speed_shot
+    part_id: 0x06
+
+  - id: shock_buffer
+    part_id: 0x07
+
+  - id: d_barrier
+    part_id: 0x08
+
+  - id: d_converter
+    part_id: 0x09
+
+  - id: hyperdrive
+    part_id: 0x0A
+
+  - id: powerdrive
+    part_id: 0x0B
+
+  - id: weapon_drive
+    part_id: 0x0C
+
+  - id: life_recover
+    part_id: 0x0D
+
+  - id: weapon_recover
+    part_id: 0x0E
+
+  - id: overdrive
+    part_id: 0x0F
+
+  - id: rapid_s
+    part_id: 0x10
+
+  - id: ultimate_buster
+    part_id: 0x11
+
+  - id: quick_charge
+    part_id: 0x12
+
+  - id: weapon_plus
+    part_id: 0x13
+
+  - id: saber_plus
+    part_id: 0x14
+
+  - id: saber_extend
+    part_id: 0x15
+
+  - id: shot_eraser
+    part_id: 0x16
+
+  - id: master_saber
+    part_id: 0x17

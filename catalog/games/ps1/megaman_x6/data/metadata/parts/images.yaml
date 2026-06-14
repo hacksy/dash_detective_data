@@ -1,0 +1,78 @@
+kind: metadata
+
+id: part_info
+
+dataset: parts
+
+entries:
+  speedster:
+    image: assets/images/parts/speedster.png
+
+  jumper:
+    image: assets/images/parts/jumper.png
+
+  hyper_dash:
+    image: assets/images/parts/hyper_dash.png
+
+  energy_saver:
+    image: assets/images/parts/energy_saver.png
+
+  super_recover:
+    image: assets/images/parts/super_recover.png
+
+  buster_plus:
+    image: assets/images/parts/buster_plus.png
+
+  speed_shot:
+    image: assets/images/parts/speed_shot.png
+
+  shock_buffer:
+    image: assets/images/parts/shock_buffer.png
+
+  d_barrier:
+    image: assets/images/parts/d_barrier.png
+
+  d_converter:
+    image: assets/images/parts/d_converter.png
+
+  hyperdrive:
+    image: assets/images/parts/hyperdrive.png
+
+  powerdrive:
+    image: assets/images/parts/powerdrive.png
+
+  weapon_drive:
+    image: assets/images/parts/weapon_drive.png
+
+  life_recover:
+    image: assets/images/parts/life_recover.png
+
+  weapon_recover:
+    image: assets/images/parts/weapon_recover.png
+
+  overdrive:
+    image: assets/images/parts/overdrive.png
+
+  rapid_s:
+    image: assets/images/parts/rapid_s.png
+
+  ultimate_buster:
+    image: assets/images/parts/ultimate_buster.png
+
+  quick_charge:
+    image: assets/images/parts/quick_charge.png
+
+  weapon_plus:
+    image: assets/images/parts/weapon_plus.png
+
+  saber_plus:
+    image: assets/images/parts/saber_plus.png
+
+  saber_extend:
+    image: assets/images/parts/saber_extend.png
+
+  shot_eraser:
+    image: assets/images/parts/shot_eraser.png
+
+  master_saber:
+    image: assets/images/parts/master_saber.png

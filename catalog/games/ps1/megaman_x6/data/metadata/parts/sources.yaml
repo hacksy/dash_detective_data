@@ -1,0 +1,101 @@
+kind: metadata
+
+id: part_sources
+
+dataset: parts
+# TODO
+entries:
+  speedster:
+    ref: datasets.reploids.???
+
+  jumper:
+    name: Jumper
+    image: assets/images/parts/jumper.png
+
+  hyper_dash:
+    name: Hyper Dash
+    image: assets/images/parts/hyper_dash.png
+
+  energy_saver:
+    name: Energy Saver
+    image: assets/images/parts/energy_saver.png
+
+  super_recover:
+    name: Super Recover
+    image: assets/images/parts/super_recover.png
+
+  buster_plus:
+    name: Buster Plus
+    image: assets/images/parts/buster_plus.png
+
+  speed_shot:
+    name: Speed Shot
+    image: assets/images/parts/speed_shot.png
+
+  shock_buffer:
+    name: Shock Buffer
+    image: assets/images/parts/shock_buffer.png
+
+  d_barrier:
+    name: D. Barrier
+    image: assets/images/parts/d_barrier.png
+
+  d_converter:
+    name: D-Converter
+    image: assets/images/parts/d_converter.png
+
+  hyperdrive:
+    name: Hyperdrive
+    image: assets/images/parts/hyperdrive.png
+
+  powerdrive:
+    name: Powerdrive
+    image: assets/images/parts/powerdrive.png
+
+  weapon_drive:
+    name: Weapon Drive
+    image: assets/images/parts/weapon_drive.png
+
+  life_recover:
+    name: Life Recover
+    image: assets/images/parts/life_recover.png
+
+  weapon_recover:
+    name: Weapon Recover
+    image: assets/images/parts/weapon_recover.png
+
+  overdrive:
+    name: Overdrive
+    image: assets/images/parts/overdrive.png
+
+  rapid_s:
+    name: Rapid S
+    image: assets/images/parts/rapid_s.png
+
+  ultimate_buster:
+    name: U. Buster
+    image: assets/images/parts/ultimate_buster.png
+
+  quick_charge:
+    name: Quick Charge
+    image: assets/images/parts/quick_charge.png
+
+  weapon_plus:
+    name: W. Plus
+    image: assets/images/parts/weapon_plus.png
+
+  saber_plus:
+    name: Saber Plus
+    image: assets/images/parts/saber_plus.png
+
+  saber_extend:
+    name: Saber Extend
+    image: assets/images/parts/saber_extend.png
+
+  shot_eraser:
+    name: Shot Eraser
+    image: assets/images/parts/shot_eraser.png
+
+  master_saber:
+    name: Master Saber
+    image: assets/images/parts/master_saber.png

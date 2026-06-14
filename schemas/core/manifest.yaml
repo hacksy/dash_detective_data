@@ -1,0 +1,79 @@
+kind: schema
+id: manifest
+schema_version: 1
+
+description: >
+  Defines the entry point and metadata for a project in the system.
+  A manifest acts as the root descriptor for devices, games, or other projects.
+
+fields:
+
+  kind:
+    type: string
+    required: true
+    const: manifest
+    description: >
+      Identifies this document as a manifest definition.
+
+  id:
+    type: string
+    required: true
+    description: Unique identifier for the project.
+
+  schema_version:
+    type: integer
+    required: true
+    description: Version of the manifest schema.
+
+  project_type:
+    type: string
+    required: true
+    enum:
+      - device
+      - game
+      - protocol
+      - dataset
+      - format
+
+  entry_point:
+    type: string
+    required: true
+    description: Path to the root YAML file for this project.
+
+  name:
+    type: string
+    required: false
+
+  description:
+    type: string
+    required: false
+
+  version:
+    type: string
+    required: false
+
+  tags:
+    type: list
+    items:
+      type: string
+    required: false
+
+  author:
+    type: string
+    required: false
+
+  dependencies:
+    type: list
+    required: false
+    items:
+      type: object
+      fields:
+        id:
+          type: string
+          required: true
+        version:
+          type: string
+          required: false
+  publication:
+    ref: core.publication
+    required: false

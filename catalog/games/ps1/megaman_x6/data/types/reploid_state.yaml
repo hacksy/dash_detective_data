@@ -1,0 +1,10 @@
+kind: type
+
+id: reploid_state
+
+item:
+  bits: 4
+
+  map:
+    ref: datasets.reploid_states
+    key: state_id

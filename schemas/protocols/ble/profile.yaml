@@ -1,0 +1,104 @@
+kind: schema
+
+id: ble_profile
+
+description: >
+  Defines how a device implements Bluetooth Low Energy,
+  including supported services, characteristics, and
+  implementation-specific behavior.
+
+fields:
+
+  kind:
+    type: string
+    required: true
+    const: ble_profile
+    description: >
+      Identifies this document as a BLE profile.
+
+  services:
+    type: list
+    required: true
+    description: >
+      Services exposed by the device.
+
+    items:
+      type: object
+
+      fields:
+
+        ref:
+          type: string
+          required: true
+          description: >
+            Reference to a BLE service definition.
+
+        versions:
+          ref: core.version_constraint
+          required: false
+          description: >
+            Firmware versions where this service exists.
+
+        notes:
+          type: string
+          required: false
+          description: >
+            Additional implementation notes.
+
+        characteristics:
+          type: list
+          required: false
+          description: >
+            Characteristic-specific overrides and
+            implementation details.
+
+          items:
+            type: object
+
+            fields:
+
+              ref:
+                type: string
+                required: true
+                description: >
+                  Reference to a characteristic definition.
+
+              operations:
+                type: list
+                required: false
+                description: >
+                  Operations verified to work on this device.
+
+                items:
+                  type: string
+                  enum:
+                    - read
+                    - write
+                    - notify
+                    - indicate
+
+              versions:
+                ref: core.version_constraint
+                required: false
+                description: >
+                  Firmware versions supporting this
+                  characteristic.
+
+              status:
+                type: string
+                required: false
+                description: >
+                  Reverse-engineering confidence level.
+
+                enum:
+                  - verified
+                  - suspected
+                  - unknown
+                  - deprecated
+
+              notes:
+                type: string
+                required: false
+                description: >
+                  Additional notes regarding behavior,
+                  quirks, limitations, or discoveries.

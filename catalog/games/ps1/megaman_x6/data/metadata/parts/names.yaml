@@ -1,0 +1,78 @@
+kind: metadata
+
+id: part_info
+
+dataset: parts
+
+entries:
+  speedster:
+    name: Speedster
+
+  jumper:
+    name: Jumper
+
+  hyper_dash:
+    name: Hyper Dash
+
+  energy_saver:
+    name: Energy Saver
+
+  super_recover:
+    name: Super Recover
+
+  buster_plus:
+    name: Buster Plus
+
+  speed_shot:
+    name: Speed Shot
+
+  shock_buffer:
+    name: Shock Buffer
+
+  d_barrier:
+    name: D. Barrier
+
+  d_converter:
+    name: D-Converter
+
+  hyperdrive:
+    name: Hyperdrive
+
+  powerdrive:
+    name: Powerdrive
+
+  weapon_drive:
+    name: Weapon Drive
+
+  life_recover:
+    name: Life Recover
+
+  weapon_recover:
+    name: Weapon Recover
+
+  overdrive:
+    name: Overdrive
+
+  rapid_s:
+    name: Rapid S
+
+  ultimate_buster:
+    name: U. Buster
+
+  quick_charge:
+    name: Quick Charge
+
+  weapon_plus:
+    name: W. Plus
+
+  saber_plus:
+    name: Saber Plus
+
+  saber_extend:
+    name: Saber Extend
+
+  shot_eraser:
+    name: Shot Eraser
+
+  master_saber:
+    name: Master Saber

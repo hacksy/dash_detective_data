@@ -1,0 +1,37 @@
+kind: schema
+
+id: version_constraint
+
+description: >
+  Defines version requirements used to determine whether
+  an element applies to a particular firmware, release,
+  runtime, or implementation version.
+
+fields:
+
+  min:
+    type: string
+    required: false
+    description: >
+      Minimum supported version (inclusive).
+
+  max:
+    type: string
+    required: false
+    description: >
+      Maximum supported version (inclusive).
+
+  equals:
+    type: string
+    required: false
+    description: >
+      Exact version required.
+
+  excludes:
+    type: list
+    required: false
+    description: >
+      Versions explicitly excluded.
+
+    items:
+      type: string

@@ -1,0 +1,35 @@
+kind: schema
+
+id: category
+
+description: >
+  Describes a directory, namespace, or grouping of related entities
+  within the repository.
+
+fields:
+
+  - id: kind
+    type: const
+    value: category
+
+  - id: id
+    type: string
+    required: true
+
+  - id: name
+    type: string
+    required: true
+
+  - id: description
+    type: text
+
+  - id: publication
+    ref: core.publication
+
+  - id: tags
+    type: list
+    items:
+      type: string
+
+  - id: parent
+    type: ref

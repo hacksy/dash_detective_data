@@ -1,0 +1,9 @@
+kind: dataset
+
+id: part_categories
+
+entries:
+  - id: normal
+  - id: x
+  - id: zero
+  - id: limited

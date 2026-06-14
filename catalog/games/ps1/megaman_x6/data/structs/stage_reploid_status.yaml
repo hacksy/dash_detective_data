@@ -1,0 +1,11 @@
+kind: struct
+
+id: stage_reploid_status
+
+fields:
+  - id: reploids
+    type: sequence
+    length: 16
+
+    element:
+      type: reploid_state

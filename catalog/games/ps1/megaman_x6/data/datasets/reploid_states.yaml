@@ -1,0 +1,23 @@
+kind: dataset
+
+id: reploid_states
+
+schema:
+  fields:
+    - id: string
+    - state_id: uint8
+
+  key: state_id
+
+entries:
+  - id: no_data
+    state_id: 0
+
+  - id: rescued
+    state_id: 2
+
+  - id: death
+    state_id: 3
+
+  - id: missing
+    state_id: 4

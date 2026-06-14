@@ -1,7 +1,0 @@
-kind: type
-
-id: symbol
-
-domain:
-  ref: datasets.symbols
-  key: code

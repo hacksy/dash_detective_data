@@ -1,0 +1,30 @@
+kind: metadata
+
+id: stage_names
+
+dataset: stages
+
+entries:
+  amazon_area:
+    name: Amazon Area
+
+  northpole_area:
+    name: Northpole Area
+
+  magma_area:
+    name: Magma Area
+
+  recycle_lab:
+    name: Recycle Lab
+
+  central_museum:
+    name: Central Museum
+
+  inami_temple:
+    name: Inami Temple
+
+  laser_institute:
+    name: Laser Institute
+
+  weapon_center:
+    name: Weapon Center

@@ -1,0 +1,16 @@
+kind: dataset
+
+id: part_category_assignments
+# TODO
+entries:
+  - part_id: speedster
+    category_id: normal
+
+  - part_id: hyper_dash
+    category_id: x
+
+  - part_id: saber_plus
+    category_id: zero
+
+  - part_id: ultimate_buster
+    category_id: limited

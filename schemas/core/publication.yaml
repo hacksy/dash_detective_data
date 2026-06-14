@@ -1,0 +1,46 @@
+kind: schema
+
+id: publication
+
+description: >
+  Controls how a project is published and who
+  can access it on generated websites.
+
+fields:
+
+  visibility:
+    type: string
+    required: true
+    default: public
+
+    enum:
+      - public
+      - restricted
+      - hidden
+      - private
+
+    description: >
+      Publication visibility level.
+
+      public:
+        Visible to everyone.
+
+      restricted:
+        Requires authentication.
+
+      hidden:
+        Accessible by direct link but not indexed.
+
+      private:
+        Not published.
+
+  audiences:
+    type: list
+    required: false
+
+    description: >
+      Optional audience groups allowed to access
+      restricted content.
+
+    items:
+      type: string
