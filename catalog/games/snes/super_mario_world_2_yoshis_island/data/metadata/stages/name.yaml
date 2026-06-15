@@ -1,0 +1,36 @@
+kind: metadata
+
+id: stage_names
+
+dataset: stages
+
+entries:
+  world_1_1:
+    name: Make Eggs, Throw Eggs
+
+  world_1_2:
+    name: Watch Out Below!
+
+  world_1_3:
+    name: The Cave Of Chomp Rock
+
+  world_1_4:
+    name: Burt The Bashful's Fort
+
+  world_1_5:
+    name: Hop! Hop! Donut Lifts
+
+  world_1_6:
+    name: Shy-Guys On Stilts
+
+  world_1_7:
+    name: Touch Fuzzy, Get Dizzy
+
+  world_1_8:
+    name: Salvo The Slime's Castle
+
+  world_1_extra:
+    name: Poochy Ain't Stupid
+
+  world_1_bonus:
+    name: Flip Cards

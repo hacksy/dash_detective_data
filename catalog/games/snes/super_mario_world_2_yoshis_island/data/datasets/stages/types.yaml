@@ -1,0 +1,8 @@
+kind: dataset
+
+id: stage_types
+
+entries:
+  - id: normal
+  - id: extra
+  - id: bonus
