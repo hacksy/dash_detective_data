@@ -1,0 +1,11 @@
+kind: service
+id: service_fafafa00_fafa
+uuid: fafafa00-fafa-fafa-fafa-fafafafafafa
+
+characteristics:
+  - characteristic_uuid: fafafa01-fafa-fafa-fafa-fafafafafafa
+    descriptors:
+      - uuid: 00002901-0000-1000-8000-00805f9b34fb
+    properties:
+      - read
+      - write_no_response

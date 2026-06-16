@@ -1,0 +1,87 @@
+kind: service
+id: device_information
+uuid: 0000180a-0000-1000-8000-00805f9b34fb
+
+defaults:
+  descriptors:
+    - uuid: 00002901-0000-1000-8000-00805f9b34fb
+
+characteristics:
+  - characteristic_uuid: ebe0ccb7-7a0a-4b0c-8a1a-6ff2997da3a6
+    properties:
+      - read
+      - write
+
+  - characteristic_uuid: ebe0ccb9-7a0a-4b0c-8a1a-6ff2997da3a6
+    properties:
+      - read
+
+  - characteristic_uuid: ebe0ccba-7a0a-4b0c-8a1a-6ff2997da3a6
+    properties:
+      - read
+      - write
+
+  - characteristic_uuid: ebe0ccbb-7a0a-4b0c-8a1a-6ff2997da3a6
+    properties:
+      - read
+
+  - characteristic_uuid: ebe0ccbc-7a0a-4b0c-8a1a-6ff2997da3a6
+    descriptors:
+      - uuid: 00002902-0000-1000-8000-00805f9b34fb
+    properties:
+      - notify
+
+  - characteristic_uuid: ebe0ccbe-7a0a-4b0c-8a1a-6ff2997da3a6
+    properties:
+      - read
+      - write
+
+  - characteristic_uuid: ebe0ccc1-7a0a-4b0c-8a1a-6ff2997da3a6
+    descriptors:
+      - uuid: 00002902-0000-1000-8000-00805f9b34fb
+    properties:
+      - notify
+      - read
+
+  - characteristic_uuid: ebe0ccc2-7a0a-4b0c-8a1a-6ff2997da3a6
+    properties:
+      - write
+
+  - characteristic_uuid: ebe0ccc4-7a0a-4b0c-8a1a-6ff2997da3a6
+    properties:
+      - read
+
+  - characteristic_uuid: ebe0ccc8-7a0a-4b0c-8a1a-6ff2997da3a6
+    properties:
+      - write
+
+  - characteristic_uuid: ebe0ccd4-7a0a-4b0c-8a1a-6ff2997da3a6
+    properties:
+      - write
+
+  - characteristic_uuid: ebe0ccd7-7a0a-4b0c-8a1a-6ff2997da3a6
+    properties:
+      - read
+      - write
+
+  - characteristic_uuid: ebe0ccd8-7a0a-4b0c-8a1a-6ff2997da3a6
+    properties:
+      - write
+
+  - characteristic_uuid: ebe0cca1-7a0a-4b0c-8a1a-6ff2997da3a6
+    properties:
+      - write
+
+  - characteristic_uuid: ebe0cca2-7a0a-4b0c-8a1a-6ff2997da3a6
+    properties:
+      - read
+
+  - characteristic_uuid: ebe0cca3-7a0a-4b0c-8a1a-6ff2997da3a6
+    properties:
+      - read
+      - write
+
+  - characteristic_uuid: ebe0cca4-7a0a-4b0c-8a1a-6ff2997da3a6
+    properties:
+      - read
+      - write

@@ -6,6 +6,7 @@ schema:
   fields:
     - name: id
       type: string
+
     - name: state_id
       type: uint8
 

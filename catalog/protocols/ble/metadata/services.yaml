@@ -1,0 +1,27 @@
+kind: metadata
+source: ble_services
+rel: services
+
+entries:
+  00001800-0000-1000-8000-00805f9b34fb:
+    name: Generic Access
+    abbreviation: GAP
+    defined_by:
+      ref: organizations.bluetooth_sig
+    description: >
+      The Generic Access service provides fundamental device
+      information used during discovery and connection. It commonly
+      exposes characteristics such as the device name, appearance,
+      and preferred connection parameters.
+
+  00001801-0000-1000-8000-00805f9b34fb:
+    name: Generic Attribute
+    abbreviation: GATT
+    defined_by:
+      ref: organizations.bluetooth_sig
+    description: >
+      The Generic Attribute service supports service and
+      characteristic management within the GATT protocol.
+      It includes mechanisms that allow connected clients
+      to detect changes to a device's attribute database,
+      such as the Service Changed characteristic.

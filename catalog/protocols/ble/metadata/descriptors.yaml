@@ -1,0 +1,9 @@
+kind: metadata
+
+dataset: ble_descriptors
+
+entries:
+  00002901-0000-1000-8000-00805f9b34fb:
+    name: Characteristic User Description
+  00002902-0000-1000-8000-00805f9b34fb:
+    name: Client Characteristic Configuration

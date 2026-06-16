@@ -1,0 +1,23 @@
+kind: dataset
+
+id: ble_descriptors
+
+schema:
+  key: uuid
+
+  fields:
+    - name: uuid
+      type: string
+
+entries:
+  - uuid: 00002900-0000-1000-8000-00805f9b34fb
+
+  - uuid: 00002901-0000-1000-8000-00805f9b34fb
+
+  - uuid: 00002902-0000-1000-8000-00805f9b34fb
+
+  - uuid: 00002903-0000-1000-8000-00805f9b34fb
+
+  - uuid: 00002904-0000-1000-8000-00805f9b34fb
+
+  - uuid: 00002905-0000-1000-8000-00805f9b34fb

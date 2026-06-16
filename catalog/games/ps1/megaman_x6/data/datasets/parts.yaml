@@ -4,8 +4,12 @@ id: parts
 
 schema:
   fields:
-    - id: string
-    - part_id: uint8
+    - name: id
+      type: string
+
+    - name: part_id
+      type: uint8
+
   key: part_id
 
 entries:

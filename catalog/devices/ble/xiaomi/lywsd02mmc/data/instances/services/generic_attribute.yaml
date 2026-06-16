@@ -1,0 +1,10 @@
+kind: service
+id: generic_attribute
+uuid: 00001801-0000-1000-8000-00805f9b34fb
+
+characteristics:
+  - characteristic_uuid: 00002a05-0000-1000-8000-00805f9b34fb
+    descriptors:
+      - uuid: 00002902-0000-1000-8000-00805f9b34fb
+    properties:
+      - indicate
