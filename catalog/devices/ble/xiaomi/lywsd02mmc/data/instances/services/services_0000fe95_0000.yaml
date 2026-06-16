@@ -2,8 +2,58 @@ kind: service
 id: services_0000fe95_0000
 uuid: 0000fe95-0000-1000-8000-00805f9b34fb
 
+default:
+  descriptors:
+    - uuid: 00002902-0000-1000-8000-00805f9b34fb
+
 characteristics:
   - characteristic_uuid: 00000004-0000-1000-8000-00805f9b34fb
+    properties:
+      - read
+
+  - characteristic_uuid: 00000010-0000-1000-8000-00805f9b34fb
+    descriptors:
+      - uuid: 00002902-0000-1000-8000-00805f9b34fb
+    properties:
+      - notify
+      - write_no_response
+
+  - characteristic_uuid: 00000017-0000-1000-8000-00805f9b34fb
+    descriptors:
+      - uuid: 00002901-0000-1000-8000-00805f9b34fb
+    properties:
+      - notify
+      - write
+
+  - characteristic_uuid: 00000018-0000-1000-8000-00805f9b34fb
+    descriptors:
+      - uuid: 00002902-0000-1000-8000-00805f9b34fb
+    properties:
+      - notify
+      - write_no_response
+
+  - characteristic_uuid: 00000019-0000-1000-8000-00805f9b34fb
+    descriptors:
+      - uuid: 00002902-0000-1000-8000-00805f9b34fb
+    properties:
+      - notify
+      - write_no_response
+
+  - characteristic_uuid: 0000001a-0000-1000-8000-00805f9b34fb
+    descriptors:
+      - uuid: 00002902-0000-1000-8000-00805f9b34fb
+    properties:
+      - notify
+      - write_no_response
+
+  - characteristic_uuid: 0000001b-0000-1000-8000-00805f9b34fb
+    descriptors:
+      - uuid: 00002902-0000-1000-8000-00805f9b34fb
+    properties:
+      - notify
+      - write_no_response
+
+  - characteristic_uuid: 0000001c-0000-1000-8000-00805f9b34fb
     descriptors:
       - uuid: 00002901-0000-1000-8000-00805f9b34fb
     properties:
