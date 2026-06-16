@@ -3,8 +3,10 @@ id: symbols
 
 schema:
   fields:
-    - id: string
-    - code: uint8
+    - name: id
+      type: string
+    - name: code
+      type: uint8
   key: code
 
 entries:
