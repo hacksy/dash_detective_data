@@ -4,8 +4,10 @@ id: stages
 
 schema:
   fields:
-    - id: string
-    - reploid_id: uint8
+    - name: id
+      type: string
+    - name: reploid_id
+      type: uint8
   key: reploid_id
 
 entries:
