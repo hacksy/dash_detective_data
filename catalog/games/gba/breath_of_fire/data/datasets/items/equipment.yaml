@@ -1,0 +1,16 @@
+kind: dataset
+
+id: item_equipment
+
+schema:
+  key: item_id
+  fields:
+    - name: id
+      type: string
+
+    - name: item_id
+      type: uint16
+
+entries:
+  - id: none
+    item_id: 0x0000

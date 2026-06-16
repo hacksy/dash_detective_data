@@ -1,0 +1,20 @@
+kind: struct
+
+id: save
+
+fields:
+  - id: checksum
+    type: checksum
+    range:
+      start: 0x0002
+      length: 0x4F9
+    offset: 0
+    storage: uint16
+    algorithm: uint8_sum
+
+  - size: 30
+
+  - id: gold
+    storage: uint16
+    min: 0
+    max: 9999

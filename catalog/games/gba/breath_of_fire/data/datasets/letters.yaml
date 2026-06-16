@@ -1,0 +1,230 @@
+kind: dataset
+
+id: character_set
+
+schema:
+key: value
+
+fields:
+  - name: value
+    type: uint8
+
+  - name: character
+    type: string
+
+entries:
+  # End character #
+  - value: 0x00
+    character: ""
+
+  # Numbers #
+  - value: 0x20
+    character: "0"
+
+  - value: 0x21
+    character: "1"
+
+  - value: 0x22
+    character: "2"
+
+  - value: 0x23
+    character: "3"
+
+  - value: 0x24
+    character: "4"
+
+  - value: 0x25
+    character: "5"
+
+  - value: 0x26
+    character: "6"
+
+  - value: 0x27
+    character: "7"
+
+  - value: 0x28
+    character: "8"
+
+  - value: 0x29
+    character: "9"
+
+  # Uppercase Characters #
+  - value: 0x2A
+    character: "A"
+
+  - value: 0x2B
+    character: "B"
+
+  - value: 0x2C
+    character: "C"
+
+  - value: 0x2D
+    character: "D"
+
+  - value: 0x2E
+    character: "E"
+
+  - value: 0x2F
+    character: "F"
+
+  - value: 0x30
+    character: "G"
+
+  - value: 0x31
+    character: "H"
+
+  - value: 0x32
+    character: "I"
+
+  - value: 0x33
+    character: "J"
+
+  - value: 0x34
+    character: "K"
+
+  - value: 0x35
+    character: "L"
+
+  - value: 0x36
+    character: "M"
+
+  - value: 0x37
+    character: "N"
+
+  - value: 0x38
+    character: "O"
+
+  - value: 0x39
+    character: "P"
+
+  - value: 0x3A
+    character: "Q"
+
+  - value: 0x3B
+    character: "R"
+
+  - value: 0x3C
+    character: "S"
+
+  - value: 0x3D
+    character: "T"
+
+  - value: 0x3E
+    character: "U"
+
+  - value: 0x3F
+    character: "V"
+
+  - value: 0x40
+    character: "W"
+
+  - value: 0x41
+    character: "X"
+
+  - value: 0x42
+    character: "Y"
+
+  - value: 0x43
+    character: "Z"
+
+  # Special Characters #
+  - value: 0x45
+    character: "."
+
+  - value: 0x46
+    character: ","
+
+  # Lowercase Characters #
+  - value: 0x48
+    character: "a"
+
+  - value: 0x49
+    character: "b"
+
+  - value: 0x4A
+    character: "c"
+
+  - value: 0x4B
+    character: "d"
+
+  - value: 0x4C
+    character: "e"
+
+  - value: 0x4D
+    character: "f"
+
+  - value: 0x4E
+    character: "g"
+
+  - value: 0x4F
+    character: "h"
+
+  - value: 0x50
+    character: "i"
+
+  - value: 0x51
+    character: "j"
+
+  - value: 0x52
+    character: "k"
+
+  - value: 0x53
+    character: "l"
+
+  - value: 0x54
+    character: "m"
+
+  - value: 0x55
+    character: "n"
+
+  - value: 0x56
+    character: "o"
+
+  - value: 0x57
+    character: "p"
+
+  - value: 0x58
+    character: "q"
+
+  - value: 0x59
+    character: "r"
+
+  - value: 0x5A
+    character: "s"
+
+  - value: 0x5B
+    character: "t"
+
+  - value: 0x5C
+    character: "u"
+
+  - value: 0x5D
+    character: "v"
+
+  - value: 0x5E
+    character: "w"
+
+  - value: 0x5F
+    character: "x"
+
+  - value: 0x60
+    character: "y"
+
+  - value: 0x61
+    character: "z"
+
+  # Special Characters #
+  - value: 0x62
+    character: "'"
+
+  - value: 0x63
+    character: " "
+
+  - value: 0xEF
+    character: "-"
+
+  - value: 0xF0
+    character: "?"
+
+  - value: 0xF7
+    character: "!"

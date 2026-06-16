@@ -1,0 +1,46 @@
+kind: dataset
+
+id: item_consumables
+
+schema:
+  key: item_id
+  fields:
+    - name: id
+      type: string
+
+    - name: item_id
+      type: uint8
+
+entries:
+  - id: none
+    item_id: 0x00
+
+  - id: herb
+    item_id: 0x08
+
+  - id: cure
+    item_id: 0x09
+
+  - id: antdt
+    item_id: 0x0A
+
+  - id: m_drop
+    item_id: 0x0C
+
+  - id: t_drop
+    item_id: 0x0D
+
+  - id: mrbl3
+    item_id: 0x12
+
+  - id: apple
+    item_id: 0x19
+
+  - id: antler
+    item_id: 0x1B
+
+  - id: life
+    item_id: 0x1D
+
+  - id: v_ptn
+    item_id: 0x34

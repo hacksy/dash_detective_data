@@ -1,0 +1,26 @@
+kind: game
+
+id: breath_of_fire
+
+name: Breath of Fire
+aliases:
+  - "Breath of Fire: Ryuu no Senshi"
+developers:
+  - ref: organizations.intelligent_systems
+
+publishers:
+  - ref: organizations.nintendo
+
+franchises:
+  - ref: franchises.fire_emblem
+
+series:
+  - ref: series.fire_emblem
+
+platforms:
+  - ref: platforms.game_boy_advance
+
+genres:
+  - ref: genres.strategy
+  - ref: genres.turn_based
+  - ref: genres.tactics

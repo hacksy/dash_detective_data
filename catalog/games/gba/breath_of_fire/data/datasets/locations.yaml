@@ -1,0 +1,28 @@
+kind: dataset
+
+id: locations
+
+schema:
+  key: id
+  fields:
+    - name: id
+      type: string
+
+    - name: location_id
+      type: uint8
+
+entries:
+  - id: drogen
+    location_id: 0x19
+
+  - id: winlan
+    location_id: 0x1A
+
+  - id: romero
+    location_id: 0x1B
+
+  - id: nanai
+    location_id: 0x1C
+
+  - id: camlon
+    location_id: 0x4F
