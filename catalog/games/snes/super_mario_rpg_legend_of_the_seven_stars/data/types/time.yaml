@@ -1,0 +1,20 @@
+kind: type
+
+id: time
+storage: uint16
+formatter: timer
+#
+# Formatter needs to be implemented
+#string ShowTimer(Timer &timer)
+# {
+#     double totalSeconds = (double)timer.value ;
+
+#     int minutes = totalSeconds / 3600;
+#     int seconds = (totalSeconds / 60) % 60;
+#     int hundredths = ((totalSeconds % 60) * 100) / 60;
+#     string result;
+
+#      SPrintf(result, "%02d'%02d''%02d",minutes,seconds,hundredths);
+
+#     return result;
+# }

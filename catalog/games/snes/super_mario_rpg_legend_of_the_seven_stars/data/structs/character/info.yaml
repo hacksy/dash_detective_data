@@ -1,0 +1,70 @@
+kind: struct
+
+id: character_info
+
+parameters:
+  - id: character
+    type: ref
+    ref: datasets.characters
+
+fields:
+  - id: level
+    type: uint8
+    min: 1
+    max: 30
+
+  - id: current_hp
+    type: uint16
+
+  - id: max_hp
+    type: uint16
+
+  - id: speed
+    type: uint8
+
+  - id: attack
+    type: uint8
+
+  - id: defense
+    type: uint8
+
+  - id: magic_attack
+    type: uint8
+
+  - id: magic_defense
+    type: uint8
+
+  - id: experience
+    type: uint16
+
+  - id: weapon
+    type: ref
+    source: datasets.items
+    filter:
+      category: weapon
+      character: ${character}
+
+  - id: armor
+    type: ref
+    source: datasets.items
+    filter:
+      category: armor
+      character: ${character}
+
+  - id: accesory
+    type: ref
+    source: datasets.items
+    filter:
+      category: accesory
+      character: ${character}
+
+  - type: unknown
+    size: 1
+
+  - id: skills
+    type: specials_collection
+    parameters:
+      character: ${character}
+
+  - type: unknown
+    size: 1

@@ -1,0 +1,16 @@
+kind: dataset
+
+id: characters
+
+schema:
+  key: id
+  fields:
+    - name: id
+      type: string
+
+entries:
+  - id: mario
+  - id: mallow
+  - id: geno
+  - id: bowser
+  - id: peach

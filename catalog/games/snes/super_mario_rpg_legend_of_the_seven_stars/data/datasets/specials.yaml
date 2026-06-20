@@ -1,0 +1,72 @@
+kind: dataset
+id: specials
+
+schema:
+  key: id
+  fields:
+    - name: id
+      type: string
+
+    - name: character
+      type: ref
+      source: datasets.characters
+
+entries:
+  - id: jump
+    character: mario
+  - id: fire_orb
+    character: mario
+  - id: super_jump
+    character: mario
+  - id: super_flame
+    character: mario
+  - id: ultra_jump
+    character: mario
+  - id: ultra_flame
+    character: mario
+
+  - id: thunderbolt
+    character: mallow
+  - id: hp_rain
+    character: mallow
+  - id: psychopath
+    character: mallow
+  - id: shocker
+    character: mallow
+  - id: snowy
+    character: mallow
+  - id: star_rain
+    character: mallow
+
+  - id: geno_beam
+    character: geno
+  - id: geno_boost
+    character: geno
+  - id: geno_whirl
+    character: geno
+  - id: geno_blast
+    character: geno
+  - id: geno_flash
+    character: geno
+
+  - id: terrorize
+    character: bowser
+  - id: poison_gas
+    character: bowser
+  - id: crusher
+    character: bowser
+  - id: bowser_crush
+    character: bowser
+
+  - id: therapy
+    character: toadstool
+  - id: group_hug
+    character: toadstool
+  - id: sleepy_time
+    character: toadstool
+  - id: come_back
+    character: toadstool
+  - id: mute
+    character: toadstool
+  - id: psych_bomb
+    character: toadstool

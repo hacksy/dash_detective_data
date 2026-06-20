@@ -1,0 +1,20 @@
+kind: game
+
+id: super_mario_rpg_legend_of_the_seven_stars
+
+name: "Super Mario RPG: Legend of the Seven Stars"
+
+developers:
+  - ref: organizations.squaresoft
+
+publishers:
+  - ref: organizations.nintendo
+
+franchises:
+  - ref: franchises.mario
+
+platforms:
+  - ref: platforms.super_nintendo
+
+genres:
+  - ref: genres.rpg

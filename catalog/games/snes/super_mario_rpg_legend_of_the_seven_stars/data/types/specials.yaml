@@ -1,0 +1,16 @@
+kind: type
+id: specials_collection
+type: bitfield
+storage: uint8
+parameters:
+  - id: character
+    type: ref
+    source: datasets.characters
+
+bitfield:
+  source: datasets.specials
+  filter:
+    field: character
+    equals: ${character}
+
+  ordering: dataset
