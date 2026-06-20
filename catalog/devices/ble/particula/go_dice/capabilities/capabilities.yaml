@@ -1,0 +1,14 @@
+kind: capability
+id: godice
+namespace: godice
+
+tasks:
+  - request_device
+  - connect
+  - reconnect
+  - disconnect
+  - set_die_type
+  - write_led
+  - pulse_led
+  - request_battery
+  - request_dice_color

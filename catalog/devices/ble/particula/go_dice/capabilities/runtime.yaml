@@ -1,0 +1,40 @@
+kind: runtime
+
+id: godice_runtime
+
+capabilities: godice
+
+tasks:
+  set_die_type:
+    inputs:
+      type: context.die_type
+
+    steps:
+      - id: load_state
+        op: dataset.lookup
+        dataset: dice_types
+        value: ${context.die_type}
+        save_as: die_type_value
+
+  read_dice_color:
+    requires:
+      - ble.connected
+
+    outputs:
+      type: context.dice_color
+
+    steps:
+      - id: read_dice_color
+        op: dataset.lookup
+        dataset: dice_operations
+        value: DICE_COLOR
+        save_as: dice_color
+
+      - id: send_message
+        op: ble.send_message
+        characteristic: 6e400002-b5a3-f393-e0a9-e50e24dcca9e
+        value: ${dice_color}
+events:
+  - id: add_callback????
+    op: ble.wait_for_callback??
+    value: data.getUInt8(3) // Help me chatgpt-san

@@ -1,0 +1,24 @@
+kind: dataset
+
+id: ble_services
+
+schema:
+  key: uuid
+
+  fields:
+    - name: uuid
+      type: string
+
+    - name: service_type
+      type: enum
+      enum: [primary, secondary]
+
+entries:
+  - uuid: 00001800-0000-1000-8000-00805f9b34fb
+    service_type: primary
+
+  - uuid: 00001801-0000-1000-8000-00805f9b34fb
+    service_type: primary
+
+  - uuid: 6e400001-b5a3-f393-e0a9-e50e24dcca9e
+    service_type: primary

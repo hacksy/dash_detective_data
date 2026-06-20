@@ -1,0 +1,21 @@
+kind: service
+id: generic_access
+uuid: 00001800-0000-1000-8000-00805f9b34fb
+
+characteristics:
+  - characteristic_uuid: 00002a00-0000-1000-8000-00805f9b34fb
+    properties:
+      - read
+      - write
+
+  - characteristic_uuid: 00002a01-0000-1000-8000-00805f9b34fb
+    properties:
+      - read
+
+  - characteristic_uuid: 00002a04-0000-1000-8000-00805f9b34fb
+    properties:
+      - read
+
+  - characteristic_uuid: 00002aa6-0000-1000-8000-00805f9b34fb
+    properties:
+      - read

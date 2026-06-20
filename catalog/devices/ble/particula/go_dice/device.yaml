@@ -1,0 +1,16 @@
+kind: device
+
+id: go_dice
+name: GoDice
+manufacturer:
+  ref: organizations.particula
+
+protocols:
+  - ble
+
+description: >
+  GoDice is a high-tech smart dice system created by Particula that bridges the gap between physical tabletop gaming and digital screens.
+
+images:
+  - path: assets/images/go_dice.jpg
+    caption: GoDice six path
