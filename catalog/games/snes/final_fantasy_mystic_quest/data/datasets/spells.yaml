@@ -1,0 +1,35 @@
+kind: dataset
+id: spells
+
+schema:
+  key: id
+  fields:
+    - name: id
+      type: string
+    - name: value
+      type: uint
+entries:
+  - id: exit
+    value: 0x00
+  - id: cure
+    value: 0x01
+  - id: heal
+    value: 0x02
+  - id: life
+    value: 0x03
+  - id: quake
+    value: 0x04
+  - id: blizzard
+    value: 0x05
+  - id: fire
+    value: 0x06
+  - id: aero
+    value: 0x07
+  - id: thunder
+    value: 0x08
+  - id: white
+    value: 0x09
+  - id: meteor
+    value: 0x0A
+  - id: flare
+    value: 0x0B

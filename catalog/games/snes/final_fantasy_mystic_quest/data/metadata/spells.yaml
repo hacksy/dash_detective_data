@@ -1,0 +1,52 @@
+kind: metadata
+
+dataset: spells
+
+entries:
+  aero:
+    name: Aero
+    position: 0
+
+  fire:
+    name: Fire
+    position: 1
+
+  blizzard:
+    name: Blizzard
+    position: 2
+
+  quack:
+    name: Quack
+    position: 3
+
+  life:
+    name: Life
+    position: 4
+
+  heal:
+    name: Heal
+    position: 5
+
+  cure:
+    name: Cure
+    position: 6
+
+  exit:
+    name: Exit
+    position: 7
+
+  flare:
+    name: Flare
+    position: 12
+
+  meteor:
+    name: Meteor
+    position: 13
+
+  white:
+    name: White
+    position: 14
+
+  thunder:
+    name: Thunder
+    position: 15

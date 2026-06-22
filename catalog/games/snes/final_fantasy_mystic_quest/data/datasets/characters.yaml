@@ -1,0 +1,22 @@
+kind: dataset
+id: charset
+
+schema:
+  key: id
+  fields:
+    - name: id
+      type: uint8
+    - name: character
+      type: string
+
+entries:
+  - id: benjamin
+  - id: kaeli_1st
+  - id: tristam_1st
+  - id: phoebe_1st
+  - id: reuben_1st
+  - id: kaeli_2nd
+  - id: tristam_2nd
+  - id: phoebe_2nd
+  - id: reuben_2nd
+  - id: none

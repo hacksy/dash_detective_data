@@ -1,0 +1,22 @@
+kind: struct
+
+id: character
+fields:
+  - id: name
+    type: sequence
+    size: 8
+    ref:
+      dataset: charset
+      field: id
+
+  - type: unknown
+    size: 8
+
+  - id: level
+    type: uint8
+
+  - id: experience
+    type: uint16
+
+  - type: unknown
+    size: 1

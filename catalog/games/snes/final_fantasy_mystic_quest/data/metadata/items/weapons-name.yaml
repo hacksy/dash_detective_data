@@ -1,0 +1,35 @@
+kind: metadata
+
+dataset: items_weapons
+
+entries:
+  steel_sword:
+    name: Steel Sword
+  knight_sword:
+    name: Knight Sword
+  excalibur:
+    name: Excalibur
+  axe:
+    name: Axe
+  battle_axe:
+    name: Battle Axe
+  giants_axe:
+    name: Giant's Axe
+  cat_claw:
+    name: Cat Claw
+  charm_claw:
+    name: Charm Claw
+  dragon_claw:
+    name: Dragon Claw
+  bomb:
+    name: Bomb
+  jumbo_bomb:
+    name: Jumbo Bomb
+  mega_grenade:
+    name: Mega Grenade
+  morning_star:
+    name: Morning Star
+  bow_of_grace:
+    name: Bow of Grace
+  ninja_star:
+    name: Ninja Star

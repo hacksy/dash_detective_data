@@ -1,0 +1,45 @@
+kind: dataset
+id: items_key
+
+schema:
+  key: id
+  fields:
+    - name: id
+      type: string
+    - name: value
+      type: uint8
+
+entries:
+  - id: elixir
+    value: 0x00
+  - id: tree_wither
+    value: 0x01
+  - id: wakewater
+    value: 0x02
+  - id: venus_key
+    value: 0x03
+  - id: multi_key
+    value: 0x04
+  - id: mask
+    value: 0x05
+  - id: magic_mirror
+    value: 0x06
+  - id: thunder_rock
+    value: 0x07
+
+  - id: captains_cap
+    value: 0x08
+  - id: libra_crest
+    value: 0x09
+  - id: gemini_crest
+    value: 0x0A
+  - id: mobius_crest
+    value: 0x0B
+  - id: sand_coin
+    value: 0x0C
+  - id: river_coin
+    value: 0x0D
+  - id: sun_coin
+    value: 0x0E
+  - id: sky_coin
+    value: 0x0F

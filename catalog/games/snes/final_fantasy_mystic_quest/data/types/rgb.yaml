@@ -1,0 +1,17 @@
+kind: type
+
+id: rgb
+
+storage: uint16
+
+fields:
+  - id: red
+    bits: 0-4
+
+  - id: green
+    bits: 5-9
+
+  - id: blue
+    bits: 10-14
+
+formatter: rgb

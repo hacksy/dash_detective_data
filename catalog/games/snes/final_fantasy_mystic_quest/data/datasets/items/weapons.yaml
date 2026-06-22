@@ -1,0 +1,42 @@
+kind: dataset
+id: items_weapons
+
+schema:
+  key: id
+  fields:
+    - name: id
+      type: string
+    - name: value
+      type: uint8
+
+entries:
+  - id: steel_sword
+    value: 0x00
+  - id: knight_sword
+    value: 0x01
+  - id: excalibur
+    value: 0x02
+  - id: axe
+    value: 0x03
+  - id: battle_axe
+    value: 0x04
+  - id: giants_axe
+    value: 0x05
+  - id: cat_claw
+    value: 0x06
+  - id: charm_claw
+    value: 0x07
+  - id: dragon_claw
+    value: 0x08
+  - id: bomb
+    value: 0x09
+  - id: jumbo_bomb
+    value: 0x0A
+  - id: mega_grenade
+    value: 0x0B
+  - id: morning_star
+    value: 0x0C
+  - id: bow_of_grace
+    value: 0x0D
+  - id: ninja_star
+    value: 0x0E

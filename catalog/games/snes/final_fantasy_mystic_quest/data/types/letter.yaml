@@ -1,0 +1,8 @@
+kind: type
+
+id: letter
+storage: uint8
+item:
+  map:
+    ref: datasets.letters
+    key: id

@@ -1,0 +1,20 @@
+kind: dataset
+id: directions
+
+schema:
+  key: id
+  fields:
+    - name: id
+      type: string
+    - name: value
+      type: uint8
+
+entries:
+  - id: down
+    value: 0x00
+  - id: up
+    value: 0x01
+  - id: left
+    value: 0x02
+  - id: right
+    value: 0x03

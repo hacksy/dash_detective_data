@@ -1,0 +1,40 @@
+kind: dataset
+id: locations
+
+schema:
+  key: id
+  fields:
+    - name: id
+      type: string
+    - name: value
+      type: uint8
+
+entries:
+  - id: battlefield_1
+    value: 0x01
+  - id: battlefield_2
+    value: 0x02
+  - id: battlefield_3
+    value: 0x03
+  - id: battlefield_4
+    value: 0x04
+  - id: battlefield_5
+    value: 0x05
+  - id: battlefield_6
+    value: 0x06
+  - id: battlefield_7
+    value: 0x07
+  - id: battlefield_8
+    value: 0x08
+  - id: battlefield_9
+    value: 0x09
+  - id: battlefield_10
+    value: 0x0A
+  - id: battlefield_11
+    value: 0x0B
+  - id: battlefield_12
+    value: 0x0C
+  - id: battlefield_13
+    value: 0x0D
+  - id: battlefield_14
+    value: 0x0E

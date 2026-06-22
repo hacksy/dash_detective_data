@@ -1,0 +1,22 @@
+kind: dataset
+id: items
+
+schema:
+  key: id
+  fields:
+    - name: id
+      type: string
+    - name: value
+      type: uint8
+
+entries:
+  - id: cure
+    value: 0x10
+  - id: heal
+    value: 0x11
+  - id: seeds
+    value: 0x12
+  - id: refresher
+    value: 0x13
+  - id: none
+    value: 0xff

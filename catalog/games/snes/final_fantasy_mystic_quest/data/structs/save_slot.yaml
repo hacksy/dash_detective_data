@@ -1,0 +1,28 @@
+kind: struct
+
+id: save_slot
+
+fields:
+  - id: magic
+    content: [0x46, 0x46, 0x30, 0x21] # FF0!
+
+  - id: checksum
+    type: checksum
+    range:
+      start: 0x0002
+      length: 0x386
+    offset: 0
+    storage: uint16
+    algorithm: uint16_sum_le
+    transform: modulo_0xFFFF
+
+  - id: benjamin_data
+    type: struct
+    ref: character
+
+  - id: partner_data
+    type: struct
+    ref: character
+
+  - id: gp
+    type: uint16

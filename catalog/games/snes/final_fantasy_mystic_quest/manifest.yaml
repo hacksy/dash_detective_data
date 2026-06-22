@@ -1,0 +1,7 @@
+kind: manifest
+id: final_fantasy_mystic_quest
+schema_version: 1
+project_type: game
+entry_point: game.yaml
+publication:
+  visibility: public

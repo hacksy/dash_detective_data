@@ -1,0 +1,23 @@
+kind: game
+
+id: final_fantasy_mystic_quest
+
+name: "Final Fantasy: Mystic Quest"
+
+developers:
+  - ref: organizations.square_soft
+
+publishers:
+  - ref: organizations.square_soft
+
+franchises:
+  - ref: franchises.final_fantasy
+
+series:
+  - ref: series.final_fantasy
+
+platforms:
+  - ref: platforms.super_nintendo
+
+genres:
+  - ref: genres.rpg

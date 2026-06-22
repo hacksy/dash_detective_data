@@ -1,0 +1,172 @@
+kind: dataset
+id: charset
+
+schema:
+  key: id
+  fields:
+    - name: id
+      type: uint8
+    - name: character
+      type: string
+
+entries:
+  - id: 0x03
+    character: " "
+  - id: 0x90
+    character: "0"
+  - id: 0x91
+    character: "1"
+  - id: 0x92
+    character: "2"
+  - id: 0x93
+    character: "3"
+  - id: 0x94
+    character: "4"
+  - id: 0x95
+    character: "5"
+  - id: 0x96
+    character: "6"
+  - id: 0x97
+    character: "7"
+  - id: 0x98
+    character: "8"
+  - id: 0x99
+    character: "9"
+
+  ###Uppercase A through Z (0x9A - 0xB3)###
+  - id: 0x9A
+    character: "A"
+  - id: 0x9B
+    character: "B"
+  - id: 0x9C
+    character: "C"
+  - id: 0x9D
+    character: "D"
+  - id: 0x9E
+    character: "E"
+  - id: 0x9F
+    character: "F"
+  - id: 0xA0
+    character: "G"
+  - id: 0xA1
+    character: "H"
+  - id: 0xA2
+    character: "I"
+  - id: 0xA3
+    character: "J"
+  - id: 0xA4
+    character: "K"
+  - id: 0xA5
+    character: "L"
+  - id: 0xA6
+    character: "M"
+  - id: 0xA7
+    character: "N"
+  - id: 0xA8
+    character: "O"
+  - id: 0xA9
+    character: "P"
+  - id: 0xAA
+    character: "Q"
+  - id: 0xAB
+    character: "R"
+  - id: 0xAC
+    character: "S"
+  - id: 0xAD
+    character: "T"
+  - id: 0xAE
+    character: "U"
+  - id: 0xAF
+    character: "V"
+  - id: 0xB0
+    character: "W"
+  - id: 0xB1
+    character: "X"
+  - id: 0xB2
+    character: "Y"
+  - id: 0xB3
+    character: "Z"
+
+  ###Lowercase a through z (0xB4 - 0xCD)###
+  - id: 0xB4
+    character: "a"
+  - id: 0xB5
+    character: "b"
+  - id: 0xB6
+    character: "c"
+  - id: 0xB7
+    character: "d"
+  - id: 0xB8
+    character: "e"
+  - id: 0xB9
+    character: "f"
+  - id: 0xBA
+    character: "g"
+  - id: 0xBB
+    character: "h"
+  - id: 0xBC
+    character: "i"
+  - id: 0xBD
+    character: "j"
+  - id: 0xBE
+    character: "k"
+  - id: 0xBF
+    character: "l"
+  - id: 0xC0
+    character: "m"
+  - id: 0xC1
+    character: "n"
+  - id: 0xC2
+    character: "o"
+  - id: 0xC3
+    character: "p"
+  - id: 0xC4
+    character: "q"
+  - id: 0xC5
+    character: "r"
+  - id: 0xC6
+    character: "s"
+  - id: 0xC7
+    character: "t"
+  - id: 0xC8
+    character: "u"
+  - id: 0xC9
+    character: "v"
+  - id: 0xCA
+    character: "w"
+  - id: 0xCB
+    character: "x"
+  - id: 0xCC
+    character: "y"
+  - id: 0xCD
+    character: "z"
+
+  ###Special Characters & Punctuation###
+  - id: 0xCE
+    character: "!"
+  - id: 0xCF
+    character: "?"
+  - id: 0xD0
+    character: ","
+  - id: 0xD1
+    character: "'"
+  - id: 0xD2
+    character: "."
+  - id: 0xD6
+    character: ";"
+  - id: 0xD7
+    character: ":"
+  - id: 0xD8
+    character: "…"
+  - id: 0xD9
+    character: "/"
+  - id: 0xDA
+    character: "-"
+  - id: 0xDB
+    character: "&"
+  - id: 0xDC
+    character: ">"
+  - id: 0xDD
+    character: "%"
+  - id: 0xFF
+    character: " "
