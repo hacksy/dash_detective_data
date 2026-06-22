@@ -1,0 +1,41 @@
+kind: dataset
+id: enemies
+
+schema:
+  key: id
+  fields:
+    - name: id
+      type: uint8
+    - name: character
+      type: string
+
+entries:
+  - id: whispy_woods
+  - id: whispy_woods_jr
+  - id: pix
+  - id: acro
+  - id: magman
+  - id: hr_h
+  - id: hr_e
+  - id: miracle_matter
+  - id: o2
+
+  - id: n_z
+  - id: rocky
+  - id: bronto_burt
+  - id: skud
+  - id: gordo
+  - id: shotzo
+  - id: spark_i
+  - id: bouncy
+  - id: glunk
+
+  - id: slushy
+  - id: chilly
+  - id: propeller
+  - id: glom
+  - id: mahall
+  - id: poppy_bros_jr
+  - id: splinter
+  - id: gobblin
+  - id: kony

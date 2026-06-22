@@ -1,0 +1,61 @@
+kind: metadata
+
+dataset: enemies
+
+entries:
+  whispy_woods:
+    name: Whispy Woods
+  whispy_woods_jr:
+    name: Whispy Woods Jr.
+  pix:
+    name: Pix
+  acro:
+    name: Acro
+  magman:
+    name: Magman
+  hr_h:
+    name: HR-H
+  hr_e:
+    name: HR-E
+  miracle_matter:
+    name: Miracle Matter
+  o2:
+    name: O²
+
+  n_z:
+    name: N-Z
+  rocky:
+    name: Rocky
+  bronto_burt:
+    name: Bronto Burt
+  skud:
+    name: Skud
+  gordo:
+    name: Gordo
+  shotzo:
+    name: Shotzo
+  spark_i:
+    name: Spark-i
+  bouncy:
+    name: Bouncy
+  glunk:
+    name: Glunk
+
+  slushy:
+    name: Slushy
+  chilly:
+    name: Chilly
+  propeller:
+    name: Propeller
+  glom:
+    name: Glom
+  mahall:
+    name: Mahall
+  poppy_bros_jr:
+    name: Poppy Bros.Jr.
+  splinter:
+    name: Splinter
+  gobblin:
+    name: Gobblin
+  kany:
+    name: Kany

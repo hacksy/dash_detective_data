@@ -1,0 +1,7 @@
+kind: manifest
+id: kirby_64_the_crystal_shards
+schema_version: 1
+project_type: game
+entry_point: game.yaml
+publication:
+  visibility: public

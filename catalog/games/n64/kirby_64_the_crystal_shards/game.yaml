@@ -1,0 +1,25 @@
+kind: game
+
+id: kirby_64_the_crystal_shards
+
+name: "Kirby 64: The Crystal Shards"
+
+developers:
+  - ref: organizations.hal_labs
+
+publishers:
+  - ref: organizations.nintendo
+
+franchises:
+  - ref: franchises.kirby
+
+series:
+  - ref: series.kirby
+
+platforms:
+  - ref: platforms.nintendo_64
+
+genres:
+  - ref: genres.action
+  - ref: genres.platformer
+  - ref: genres.2d
