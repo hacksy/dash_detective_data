@@ -1,0 +1,17 @@
+kind: metadata
+
+dataset: difficulties
+
+entries:
+  empty:
+    name: ---
+  very_easy:
+    name: Very Easy
+  easy:
+    name: Easy
+  normal:
+    name: Normal
+  hard:
+    name: Hard
+  very_hard:
+    name: Very Hard

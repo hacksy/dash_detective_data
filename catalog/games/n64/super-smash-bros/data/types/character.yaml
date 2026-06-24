@@ -1,0 +1,9 @@
+kind: type
+
+id: character
+storage: uint8
+item:
+  map:
+    ref: datasets.characters
+    key: value
+    name: character_id

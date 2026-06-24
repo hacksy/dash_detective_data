@@ -1,0 +1,29 @@
+kind: metadata
+
+dataset: characters
+
+entries:
+  mario:
+    image: assets/images/characters/mario.png
+  fox:
+    image: assets/images/characters/fox.png
+  donkey_kong:
+    image: assets/images/characters/donkey_kong.png
+  samus:
+    image: assets/images/characters/samus.png
+  luigi:
+    image: assets/images/characters/luigi.png
+  link:
+    image: assets/images/characters/link.png
+  yoshi:
+    image: assets/images/characters/yoshi.png
+  captain_falcon:
+    image: assets/images/characters/captain_falcon.png
+  kirby:
+    image: assets/images/characters/kirby.png
+  pikachu:
+    image: assets/images/characters/pikachu.png
+  jigglypuff:
+    image: assets/images/characters/jigglypuff.png
+  ness:
+    image: assets/images/characters/ness.png

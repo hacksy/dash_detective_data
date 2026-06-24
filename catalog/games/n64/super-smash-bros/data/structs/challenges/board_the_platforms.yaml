@@ -1,0 +1,17 @@
+kind: struct
+
+id: board_the_platforms
+
+fields:
+  - id: time_record_data
+    type: struct
+    ref: time_record
+
+  - type: padding
+    size: 2
+
+  - id: single_player_clear
+    type: boolean
+
+  - id: count
+    type: uint8

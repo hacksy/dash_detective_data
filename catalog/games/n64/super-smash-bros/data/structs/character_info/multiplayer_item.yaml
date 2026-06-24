@@ -1,0 +1,7 @@
+kind: struct
+
+id: character_info_multiplayer_item
+
+fields:
+  - type: unknown
+    size: 92

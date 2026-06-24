@@ -1,0 +1,25 @@
+kind: struct
+
+id: character_info_singleplayer_item
+
+fields:
+  - id: highscore
+    type: uint32
+
+  - id: continue_count
+    type: uint32
+
+  - id: bonus_count
+    type: uint32
+
+  - type: padding
+    size: 3
+
+  - id: difficulty
+    type: difficulty
+
+  - id: break_the_targets_data
+    type: break_the_targets
+
+  - id: board_the_platforms_data
+    type: board_the_platforms

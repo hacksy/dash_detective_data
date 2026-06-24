@@ -1,0 +1,9 @@
+kind: type
+
+id: difficulty
+storage: uint8
+item:
+  map:
+    ref: datasets.difficulties
+    key: value
+    name: difficulty_id

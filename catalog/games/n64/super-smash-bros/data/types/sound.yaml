@@ -1,0 +1,9 @@
+kind: type
+
+id: sound
+storage: uint8
+item:
+  map:
+    ref: datasets.sounds
+    key: value
+    name: sound_id

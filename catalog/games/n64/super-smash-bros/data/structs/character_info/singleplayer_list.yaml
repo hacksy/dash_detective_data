@@ -1,0 +1,52 @@
+kind: struct
+
+id: character_info_singleplayer_list
+
+fields:
+  - id: mario_singleplayer_data
+    type: struct
+    ref: character_info_singleplayer_info
+
+  - id: fox_singleplayer_data
+    type: struct
+    ref: character_info_singleplayer_info
+
+  - id: dk_singleplayer_data
+    type: struct
+    ref: character_info_singleplayer_info
+
+  - id: samus_singleplayer_data
+    type: struct
+    ref: character_info_singleplayer_info
+
+  - id: luigi_singleplayer_data
+    type: struct
+    ref: character_info_singleplayer_info
+
+  - id: link_singleplayer_data
+    type: struct
+    ref: character_info_singleplayer_info
+
+  - id: yoshi_singleplayer_data
+    type: struct
+    ref: character_info_singleplayer_info
+
+  - id: captain_singleplayer_data
+    type: struct
+    ref: character_info_singleplayer_info
+
+  - id: kirby_singleplayer_data
+    type: struct
+    ref: character_info_singleplayer_info
+
+  - id: pikachu_singleplayer_data
+    type: struct
+    ref: character_info_singleplayer_info
+
+  - id: jigglypuff_singleplayer_data
+    type: struct
+    ref: character_info_singleplayer_info
+
+  - id: ness_singleplayer_data
+    type: struct
+    ref: character_info_singleplayer_info

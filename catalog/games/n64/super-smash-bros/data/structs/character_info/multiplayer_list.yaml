@@ -1,0 +1,52 @@
+kind: struct
+
+id: character_info_multiplayer_list
+
+fields:
+  - id: mario_multiplayer_info
+    type: struct
+    ref: character_info_multiplayer_item
+
+  - id: fox_multiplayer_info
+    type: struct
+    ref: character_info_multiplayer_item
+
+  - id: dk_multiplayer_info
+    type: struct
+    ref: character_info_multiplayer_item
+
+  - id: samus_multiplayer_info
+    type: struct
+    ref: character_info_multiplayer_item
+
+  - id: luigi_multiplayer_info
+    type: struct
+    ref: character_info_multiplayer_item
+
+  - id: link_multiplayer_info
+    type: struct
+    ref: character_info_multiplayer_item
+
+  - id: yoshi_multiplayer_info
+    type: struct
+    ref: character_info_multiplayer_item
+
+  - id: captain_falcon_multiplayer_info
+    type: struct
+    ref: character_info_multiplayer_item
+
+  - id: kirby_multiplayer_info
+    type: struct
+    ref: character_info_multiplayer_item
+
+  - id: pikachu_multiplayer_info
+    type: struct
+    ref: character_info_multiplayer_item
+
+  - id: jigglypuff_multiplayer_info
+    type: struct
+    ref: character_info_multiplayer_item
+
+  - id: ness_multiplayer_info
+    type: struct
+    ref: character_info_multiplayer_item

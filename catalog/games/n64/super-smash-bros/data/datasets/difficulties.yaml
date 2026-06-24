@@ -1,0 +1,24 @@
+kind: dataset
+id: difficulties
+
+schema:
+  key: id
+  fields:
+    - name: difficulty_id
+      type: uint8
+    - name: value
+      type: string
+
+entries:
+  - difficulty_id: empty
+    value: 0x00
+  - difficulty_id: very_easy
+    value: 0x01
+  - difficulty_id: easy
+    value: 0x02
+  - difficulty_id: normal
+    value: 0x03
+  - difficulty_id: hard
+    value: 0x04
+  - difficulty_id: very_hard
+    value: 0x05

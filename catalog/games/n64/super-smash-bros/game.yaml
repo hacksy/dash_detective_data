@@ -1,0 +1,25 @@
+kind: game
+
+id: super_smash_bros
+
+name: Super Smash Bros.
+
+developers:
+  - ref: organizations.hal_labs
+
+publishers:
+  - ref: organizations.nintendo
+
+franchises:
+  - ref: franchises.super_smash_bros
+
+series:
+  - ref: series.super_smash_bros
+
+platforms:
+  - ref: platforms.nintendo_64
+
+genres:
+  - ref: genres.action
+  - ref: genres.fighting
+  - ref: genres.2d

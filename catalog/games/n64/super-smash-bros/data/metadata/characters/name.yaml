@@ -1,0 +1,29 @@
+kind: metadata
+
+dataset: characters
+
+entries:
+  mario:
+    name: Mario
+  fox:
+    name: Fox
+  donkey_kong:
+    name: Donkey Kong
+  samus:
+    name: Samus
+  luigi:
+    name: Luigi
+  link:
+    name: Link
+  yoshi:
+    name: Yoshi
+  captain_falcon:
+    name: Captain Falcon
+  kirby:
+    name: Kirby
+  pikachu:
+    name: Pikachu
+  jigglypuff:
+    name: Jigglypuff
+  ness:
+    name: Ness

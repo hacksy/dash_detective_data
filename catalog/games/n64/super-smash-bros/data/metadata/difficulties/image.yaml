@@ -1,0 +1,17 @@
+kind: metadata
+
+dataset: characters
+
+entries:
+  empty:
+    name: ---
+  very_easy:
+    image: assets/images/difficulties/very_easy.png
+  easy:
+    image: assets/images/difficulties/easy.png
+  normal:
+    image: assets/images/difficulties/normal.png
+  hard:
+    image: assets/images/difficulties/hard.png
+  very_hard:
+    image: assets/images/difficulties/very_hard.png

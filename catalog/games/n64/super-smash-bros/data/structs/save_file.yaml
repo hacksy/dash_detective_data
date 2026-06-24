@@ -1,0 +1,12 @@
+kind: struct
+
+id: save_slot
+
+fields:
+  - id: slot_save
+    type: struct
+    ref: save_slot
+
+  - id: slot_mirror
+    type: struct
+    ref: save_slot

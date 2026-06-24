@@ -1,0 +1,16 @@
+kind: dataset
+id: sounds
+
+schema:
+  key: id
+  fields:
+    - name: sound_id
+      type: uint8
+    - name: value
+      type: string
+
+entries:
+  - sound_id: mono
+    value: 0x00
+  - sound_id: stereo
+    value: 0x01

@@ -1,0 +1,42 @@
+kind: struct
+
+id: save_slot
+
+fields:
+  - id: character_info_multiplayer
+    type: struct
+    ref: character_info_multiplayer_list
+
+  - id: coordinates_x
+    type: int16
+
+  - id: sound
+    type: sound
+
+  - type: unknown
+    size: 2
+
+  - id: data_character_viewed
+    type: character
+
+  - id: coordinates_y
+    type: int16
+
+  - type: unknown
+    size: 8
+    comment: flags
+
+  - id: character_info_singleplayer
+    type: struct
+    ref: character_info_singleplayer_list
+
+  - type: unknown
+    size: 12
+
+  - id: checksum
+    type: checksum
+    storage: uint32
+    algorithm: unknown
+
+  - type: unknown
+    size: 4

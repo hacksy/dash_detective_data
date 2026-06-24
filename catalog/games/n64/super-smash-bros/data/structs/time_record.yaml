@@ -1,0 +1,8 @@
+kind: struct
+
+id: time_record
+
+fields:
+  - id: value
+    type: uint32
+    endianess: le

@@ -1,0 +1,14 @@
+kind: struct
+
+id: break_the_targets
+
+fields:
+  - id: time_record_data
+    type: struct
+    ref: time_record
+
+  - type: padding
+    size: 3
+
+  - id: count
+    type: uint8

@@ -1,0 +1,8 @@
+kind: manifest
+id: super_smash_bros
+schema_version: 1
+project_type: game
+entry_point: save_file.yaml
+data_point: game.yaml
+publication:
+  visibility: public

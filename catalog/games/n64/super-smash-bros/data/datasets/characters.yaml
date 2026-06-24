@@ -1,0 +1,36 @@
+kind: dataset
+id: characters
+
+schema:
+  key: id
+  fields:
+    - name: character_id
+      type: uint8
+    - name: value
+      type: string
+
+entries:
+  - character_id: mario
+    value: 0x00
+  - character_id: fox
+    value: 0x01
+  - character_id: donkey_kong
+    value: 0x02
+  - character_id: samus
+    value: 0x03
+  - character_id: luigi
+    value: 0x04
+  - character_id: link
+    value: 0x05
+  - character_id: yoshi
+    value: 0x06
+  - character_id: captain_falcon
+    value: 0x07
+  - character_id: kirby
+    value: 0x08
+  - character_id: pikachu
+    value: 0x09
+  - character_id: jigglypuff
+    value: 0x0A
+  - character_id: ness
+    value: 0x0B
