@@ -1,0 +1,7 @@
+kind: manifest
+id: chocobos_dungeon_2
+schema_version: 1
+project_type: game
+entry_point: game.yaml
+publication:
+  visibility: public

@@ -5,10 +5,10 @@ id: final_fantasy_mystic_quest
 name: "Final Fantasy: Mystic Quest"
 
 developers:
-  - ref: organizations.square_soft
+  - ref: organizations.squaresoft
 
 publishers:
-  - ref: organizations.square_soft
+  - ref: organizations.squaresoft
 
 franchises:
   - ref: franchises.final_fantasy

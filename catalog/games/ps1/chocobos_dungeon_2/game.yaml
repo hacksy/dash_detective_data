@@ -1,0 +1,24 @@
+kind: game
+
+id: chocobos_dungeon_2
+
+name: Chocobo's Dungeon 2
+
+developers:
+  - ref: organizations.squaresoft
+
+publishers:
+  - ref: organizations.square_ea
+
+franchises:
+  - ref: franchises.chocobo
+
+series:
+  - ref: series.chocobo
+
+platforms:
+  - ref: platforms.play_station
+
+genres:
+  - ref: genres.rpg
+  - ref: genres.roguelite
