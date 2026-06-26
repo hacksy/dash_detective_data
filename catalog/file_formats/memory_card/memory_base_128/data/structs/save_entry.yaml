@@ -1,0 +1,13 @@
+kind: struct
+
+id: save_entry
+
+fields:
+  - id: length
+    type: uint16
+
+  - id: body
+    type: save_entry_body
+    size: length
+    skip: 2
+    if: length != 0

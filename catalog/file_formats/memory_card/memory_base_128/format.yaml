@@ -1,0 +1,6 @@
+kind: file_format
+id: memory_base_128
+name: PC Engine Save File
+extensions:
+  - sav
+container: true

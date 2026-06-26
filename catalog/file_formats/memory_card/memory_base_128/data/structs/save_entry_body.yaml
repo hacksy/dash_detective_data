@@ -1,0 +1,17 @@
+kind: struct
+
+id: save_entry_body
+
+fields:
+  - id: checksum
+    type: checksum
+
+  - id: identifier
+    type: uint16
+
+  - id: name
+    type: char
+    size: 10
+
+  - type: payload
+    size-eos: true

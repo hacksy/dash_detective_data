@@ -1,0 +1,7 @@
+kind: manifest
+id: memory_base_128
+schema_version: 1
+project_type: file_format
+entry_point: format.yaml
+publication:
+  visibility: public

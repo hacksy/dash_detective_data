@@ -1,0 +1,12 @@
+kind: struct
+
+id: save_slot
+
+fields:
+  - id: magic
+    content: [0x48, 0x55, 0x42, 0x4D] # HUBM
+
+  - id: slots
+    type: save_entry
+    repeat: until
+    repeat-until: current.length == 0x00
