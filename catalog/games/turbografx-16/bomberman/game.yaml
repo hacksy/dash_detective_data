@@ -1,0 +1,24 @@
+kind: game
+
+id: bomberman
+
+name: "Bomberman"
+
+developers:
+  - ref: organizations.hudson_soft
+
+publishers:
+  - ref: organizations.nec
+
+franchises:
+  - ref: franchises.bomberman
+
+series:
+  - ref: series.bomberman
+
+platforms:
+  - ref: platforms.turbografx_16
+
+genres:
+  - ref: genres.puzzle
+  - ref: geners.action
