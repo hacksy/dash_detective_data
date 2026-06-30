@@ -1,0 +1,30 @@
+kind: struct
+
+id: settings
+
+fields:
+  - id: atb_display
+    type: bool
+    notes: reversed bool ON =0, OFF=1
+  - id: map_display
+    type: bool
+    notes: ON=1, OFF=0
+  - id: npc_mode
+    type: bool
+    notes: ON=1, 2Player=1
+  - id: background
+    type: bool
+    notes: Semi=0, Solid=1
+  - id: window
+    type: uint8
+    notes: indexed value, starts at 0 but visibility starts at 1
+    min: 0
+    max: 6
+  - id: horizontal_adjustment
+    type: int8
+    min: -9
+    max: 9
+  - id: vertical_adjustment
+    type: int8
+    min: -9
+    max: 9

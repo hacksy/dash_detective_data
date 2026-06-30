@@ -1,0 +1,67 @@
+kind: dataset
+id: feathers
+
+schema:
+  key: id
+  fields:
+    - name: feather_id
+      type: string
+
+entries:
+  - feather_id: fireball
+  - feather_id: blizzard_storm
+  - feather_id: aero_all
+  - feather_id: thunder_cross
+  - feather_id: quake_all
+  - feather_id: drain_up
+  - feather_id: slow
+  - feather_id: poison
+
+  - feather_id: sleep
+  - feather_id: mini
+  - feather_id: frog
+  - feather_id: confusion
+  - feather_id: silence
+  - feather_id: power_up
+  - feather_id: haste
+  - feather_id: remove
+
+  - feather_id: gravity
+  - feather_id: meteorite
+  - feather_id: doom
+  - feather_id: flare
+  - feather_id: bio
+  - feather_id: meteor
+  - feather_id: ultima
+  - feather_id: holy
+
+  - feather_id: max_hp_up
+  - feather_id: atk_up
+  - feather_id: def_up
+  - feather_id: spdef_up
+  - feather_id: critical_up
+  - feather_id: miss_down
+  - feather_id: dodge_up
+  - feather_id: recover_up
+
+  - feather_id: exp_up
+  - feather_id: energy_up
+  - feather_id: magic_up
+  - feather_id: summon_up
+  - feather_id: power_shoot
+  - feather_id: drill_shoot
+  - feather_id: super_shoot
+  - feather_id: ramuh
+
+  - feather_id: shiva
+  - feather_id: ifrit
+  - feather_id: titan
+  - feather_id: sylph
+  - feather_id: carbuncle
+  - feather_id: unicorn
+  - feather_id: odin
+  - feather_id: bahamuth
+
+  - feather_id: asura
+  - feather_id: phoenix
+  - feather_id: randomSummon

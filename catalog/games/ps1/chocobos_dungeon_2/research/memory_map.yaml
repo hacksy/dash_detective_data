@@ -1,0 +1,62 @@
+kind: documentation
+data:
+  save_file_location:
+    - /Users/hacksy/Library/Application Support/OpenEmu/Mednafen/Battery Saves/Chocobo's Dungeon 2 (USA).57c6e4a1884c2b6deac19d5d62b00284.0.mcr
+  tool: pcsx_redux
+ram:
+  80103fa8:
+    - field: gil
+    - type: uint32
+    - size: 4
+  80104014:
+    - field: feathers
+    - size: 7
+  8010401c:
+    - field: SpellLevels
+    - size: 6
+  80104022:
+    - field: SpellToNextLevels
+    - size: 6
+  801045a0:
+    - field: inventory
+    - contains: datasets.items
+    - size: 512
+
+notes:
+  checksum:
+    status: unknown
+    observations:
+      - Changing 0x27B8: 0x42 -> 0x40 changes checksum by +2.
+      - Changing 0x02D0: 0x02 -> 0x00 changes checksum by +2.
+      - Changing both restores the original checksum.
+      - Appears linear but not a simple additive checksum.
+  items:
+    status: unknown
+    observations:
+      - Items stats are weird, seems there is a map for defaults
+
+  general:
+    status: unknown
+    observations:
+      - 0x80020Axx → build save buffer
+      - 0x80020Cxx → restore save buffer
+
+debugging:
+  emulator: pcsx-redux
+
+  breakpoints:
+    - read:
+        address: 0x80103FA8
+        description: Gil read during save serialization.
+
+  save_routine:
+    - address: 0x80020A6C
+      description: Copies game state into save buffer.
+
+    - address: 0x800705D4
+      description: Generic arithmetic/bitwise dispatcher (not checksum).
+
+todo:
+  - Locate checksum routine.
+  - Locate checksum field in save buffer.
+  - Identify save buffer base.

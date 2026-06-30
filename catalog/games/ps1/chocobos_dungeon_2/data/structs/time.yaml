@@ -1,0 +1,8 @@
+kind: struct
+
+id: time
+
+fields:
+  - id: time
+    type: uint32
+    notes: Conversion on research/time_conversion.md

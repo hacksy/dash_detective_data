@@ -1,0 +1,11 @@
+kind: struct
+
+id: name
+
+fields:
+  - id: name
+    type: letter
+    length: 7
+  - id: null_byte
+    type: padding
+    size: 1

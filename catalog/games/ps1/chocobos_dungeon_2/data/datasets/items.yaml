@@ -1,0 +1,893 @@
+kind: dataset
+id: feathers
+
+schema:
+  key: id
+  fields:
+    - name: item_id
+      type: string
+    - name: name
+      type: uint8
+    - name: category
+      type: string
+entries:
+  - id: 0x00
+    name: none
+    category: empty
+  ### Spells ###
+  - id: 0x01
+    name: fire
+    category: spell
+
+  - id: 0x02
+    name: blizzard
+    category: spell
+
+  - id: 0x03
+    name: aero
+    category: spell
+
+  - id: 0x04
+    name: thunder
+    category: spell
+
+  - id: 0x05
+    name: quake
+    category: spell
+
+  - id: 0x06
+    name: drain
+    category: spell
+
+  - id: 0x07
+    name: cantrip
+    category: spell
+
+  - id: 0x08
+    name: spell
+    category: spell
+
+  - id: 0x09
+    name: mega_spell
+    category: spell
+  ### Items ####
+  - id: 0x0A
+    name: potion
+    category: item
+
+  - id: 0x0B
+    name: hi_potion
+    category: item
+
+  - id: 0x0C
+    name: elixir
+    category: item
+
+  - id: 0x0D
+    name: antidote
+    category: item
+
+  - id: 0x0E
+    name: remedy
+    category: item
+
+  - id: 0x0F
+    name: nitro
+    category: item
+
+  - id: 0x10
+    name: invis
+    category: item
+
+  - id: 0x11
+    name: damage
+    category: item
+
+  - id: 0x12
+    name: poison
+    category: item
+
+  - id: 0x13
+    name: slow
+    category: item
+
+  - id: 0x14
+    name: haste
+    category: item
+
+  - id: 0x15
+    name: silence
+    category: item
+
+  - id: 0x16
+    name: eve_drops
+    category: item
+
+  - id: 0x17
+    name: dispel
+    category: item
+
+  - id: 0x18
+    name: spell
+    category: item
+
+  - id: 0x19
+    name: amnesia
+    category: item
+
+  - id: 0x1A
+    name: blind
+    category: item
+
+  - id: 0x1B
+    name: x_potion
+    category: item
+
+  - id: 0x1C
+    name: morph
+    category: item
+  ## Essences ###
+  - id: 0x1D
+    name: goblin
+    category: essence
+
+  - id: 0x1E
+    name: bomb
+    category: essence
+
+  - id: 0x1F
+    name: mudman
+    category: essence
+
+  - id: 0x20
+    name: magman
+    category: essence
+
+  - id: 0x21
+    name: iceman
+    category: essence
+
+  - id: 0x22
+    name: creature
+    category: essence
+
+  - id: 0x23
+    name: lamia
+    category: essence
+
+  - id: 0x24
+    name: merman
+    category: essence
+
+  - id: 0x25
+    name: tonberry
+    category: essence
+
+  - id: 0x26
+    name: mini_mage
+    category: essence
+
+  - id: 0x27
+    name: giant
+    category: essence
+
+  - id: 0x28
+    name: undead
+    category: essence
+
+  - id: 0x29
+    name: critter
+    category: essence
+
+  - id: 0x2A
+    name: turtle
+    category: essence
+
+  - id: 0x2B
+    name: vampire
+    category: essence
+
+  - id: 0x2C
+    name: slug
+    category: essence
+
+  - id: 0x2D
+    name: thief
+    category: essence
+
+  - id: 0x2E
+    name: imp
+    category: essence
+
+  - id: 0x2F
+    name: mole
+    category: essence
+
+  - id: 0x30
+    name: wing
+    category: essence
+
+  - id: 0x31
+    name: mousse
+    category: essence
+
+  - id: 0x32
+    name: pudding
+    category: essence
+
+  - id: 0x33
+    name: jelly
+    category: essence
+
+  - id: 0x34
+    name: toad
+    category: essence
+
+  - id: 0x35
+    name: float_eye
+    category: essence
+
+  - id: 0x36
+    name: demon
+    category: essence
+
+  - id: 0x37
+    name: dragon
+    category: essence
+
+  - id: 0x38
+    name: octopus
+    category: essence
+
+  - id: 0x39
+    name: plant
+    category: essence
+
+  - id: 0x3A
+    name: worm
+    category: essence
+
+  - id: 0x3B
+    name: mask
+    category: essence
+
+  - id: 0x3C
+    name: mage
+    category: essence
+
+  - id: 0x3D
+    name: omega
+    category: essence
+  ### Cards ###
+  - id: 0x40
+    name: confusion
+    category: card
+
+  - id: 0x41
+    name: sleep
+    category: card
+
+  - id: 0x42
+    name: frog
+    category: card
+
+  - id: 0x43
+    name: mini
+    category: card
+
+  - id: 0x44
+    name: doom
+    category: card
+
+  - id: 0x45
+    name: geyser
+    category: card
+
+  - id: 0x46
+    name: map
+    category: card
+
+  - id: 0x47
+    name: warp
+    category: card
+
+  - id: 0x48
+    name: lost_child
+    category: card
+
+  - id: 0x49
+    name: divide
+    category: card
+
+  - id: 0x4A
+    name: polish
+    category: card
+
+  - id: 0x4B
+    name: dull
+    category: card
+
+  - id: 0x4C
+    name: repair
+    category: card
+
+  - id: 0x4D
+    name: rust
+    category: card
+
+  - id: 0x4E
+    name: reflect
+    category: card
+
+  - id: 0x4F
+    name: morph
+    category: card
+  ## Seeds ####
+  - id: 0x50
+    name: peanut
+    category: seed
+
+  - id: 0x51
+    name: lasan
+    category: seed
+
+  - id: 0x52
+    name: tired
+    category: seed
+
+  - id: 0x53
+    name: energy
+    category: seed
+
+  - id: 0x54
+    name: lethargy
+    category: seed
+
+  - id: 0x55
+    name: tasty
+    category: seed
+
+  - id: 0x56
+    name: feast
+    category: seed
+
+  - id: 0x57
+    name: rotten
+    category: seed
+
+  - id: 0x58
+    name: life
+    category: seed
+
+  - id: 0x59
+    name: level_up
+    category: seed
+
+  - id: 0x5A
+    name: level_down
+    category: seed
+
+  - id: 0x5B
+    name: wisdom
+    category: seed
+
+  - id: 0x5C
+    name: speed
+    category: seed
+
+  - id: 0x5D
+    name: slowpoke
+    category: seed
+
+  - id: 0x5E
+    name: fire
+    category: seed
+
+  - id: 0x5F
+    name: ice
+    category: seed
+
+  - id: 0x60
+    name: wind
+    category: seed
+
+  - id: 0x61
+    name: lightning
+    category: seed
+
+  - id: 0x62
+    name: holy
+    category: seed
+
+  - id: 0x63
+    name: earth
+    category: seed
+
+  - id: 0x64
+    name: merge
+    category: seed
+
+  - id: 0x65
+    name: remove
+    category: seed
+
+  - id: 0x66
+    name: fusion
+    category: seed
+
+  - id: 0x67
+    name: level
+    category: seed
+
+  - id: 0x68
+    name: superior
+    category: seed
+
+  - id: 0x69
+    name: set
+    category: seed
+  ## Summons ###
+  - id: 0x6A
+    name: ramuh
+    category: summon
+
+  - id: 0x6B
+    name: shiva
+    category: summon
+
+  - id: 0x6C
+    name: ifrit
+    category: summon
+
+  - id: 0x6D
+    name: titan
+    category: summon
+
+  - id: 0x6E
+    name: sylph
+    category: summon
+
+  - id: 0x6F
+    name: carbuncle
+    category: summon
+
+  - id: 0x70
+    name: unicorn
+    category: summon
+
+  - id: 0x71
+    name: odin
+    category: summon
+
+  - id: 0x72
+    name: bahamuth
+    category: summon
+
+  - id: 0x73
+    name: asura
+    category: summon
+
+  - id: 0x74
+    name: phoenix
+    category: summon
+  ### Equipment: Claws ###
+  - id: 0x75
+    name: weak
+    category: claw
+
+  - id: 0x76
+    name: wood
+    category: claw
+
+  - id: 0x77
+    name: iron
+    category: claw
+
+  - id: 0x78
+    name: mythril
+    category: claw
+
+  - id: 0x79
+    name: titan
+    category: claw
+
+  - id: 0x7A
+    name: lite
+    category: claw
+
+  - id: 0x7B
+    name: flame
+    category: claw
+
+  - id: 0x7C
+    name: frozen
+    category: claw
+
+  - id: 0x7D
+    name: blitz
+    category: claw
+
+  - id: 0x7E
+    name: hurricane
+    category: claw
+
+  - id: 0x7F
+    name: holy
+    category: claw
+
+  - id: 0x80
+    name: crystal
+    category: claw
+
+  - id: 0x81
+    name: digging
+    category: claw
+
+  - id: 0x82
+    name: frog
+    category: claw
+
+  - id: 0x83
+    name: poison
+    category: claw
+
+  - id: 0x84
+    name: sleep
+    category: claw
+
+  - id: 0x85
+    name: chaos
+    category: claw
+
+  - id: 0x86
+    name: silent
+    category: claw
+
+  - id: 0x87
+    name: dwarf
+    category: claw
+
+  - id: 0x88
+    name: slowpoke
+    category: claw
+
+  - id: 0x89
+    name: critical
+    category: claw
+
+  - id: 0x8A
+    name: vibro
+    category: claw
+
+  - id: 0x8B
+    name: order
+    category: claw
+
+  - id: 0x8C
+    name: arc
+    category: claw
+
+  - id: 0x8D
+    name: cross
+    category: claw
+
+  - id: 0x8E
+    name: multi
+    category: claw
+
+  - id: 0x8F
+    name: spin_kick
+    category: claw
+
+  - id: 0x90
+    name: 2x_edge
+    category: claw
+
+  - id: 0x91
+    name: kings
+    category: claw
+
+  - id: 0x92
+    name: gil
+    category: claw
+
+  - id: 0x93
+    name: absolute
+    category: claw
+
+  - id: 0x94
+    name: genjis
+    category: claw
+
+  - id: 0x95
+    name: healing
+    category: claw
+
+  - id: 0x96
+    name: kiai
+    category: claw
+
+  - id: 0x97
+    name: vampire
+    category: claw
+
+  - id: 0x98
+    name: grudge
+    category: claw
+
+  - id: 0x99
+    name: brandname
+    category: claw
+
+  - id: 0x9A
+    name: gambling
+    category: claw
+  ### Equipment: Saddle ###
+  - id: 0x9B
+    name: weak
+    category: saddle
+
+  - id: 0x9C
+    name: wood
+    category: saddle
+
+  - id: 0x9D
+    name: iron
+    category: saddle
+
+  - id: 0x9E
+    name: flame
+    category: saddle
+
+  - id: 0x9F
+    name: ice
+    category: saddle
+
+  - id: 0xA0
+    name: lightning
+    category: saddle
+
+  - id: 0xA1
+    name: wind
+    category: saddle
+
+  - id: 0xA2
+    name: holy
+    category: saddle
+
+  - id: 0xA3
+    name: earth
+    category: saddle
+
+  - id: 0xA4
+    name: no_slow
+    category: saddle
+
+  - id: 0xA5
+    name: no_poison
+    category: saddle
+
+  - id: 0xA6
+    name: no_sleep
+    category: saddle
+
+  - id: 0xA7
+    name: no_dwarf
+    category: saddle
+
+  - id: 0xA8
+    name: no_frog
+    category: saddle
+
+  - id: 0xA9
+    name: calm
+    category: saddle
+
+  - id: 0xAA
+    name: no_silence
+    category: saddle
+
+  - id: 0xAB
+    name: mirage
+    category: saddle
+
+  - id: 0xAC
+    name: counter
+    category: saddle
+
+  - id: 0xAD
+    name: mythril
+    category: saddle
+
+  - id: 0xAE
+    name: lite
+    category: saddle
+
+  - id: 0xAF
+    name: kings
+    category: saddle
+
+  - id: 0xB0
+    name: crystal
+    category: saddle
+
+  - id: 0xB1
+    name: reflect
+    category: saddle
+
+  - id: 0xB2
+    name: titan
+    category: saddle
+
+  - id: 0xB3
+    name: absolute
+    category: saddle
+
+  - id: 0xB4
+    name: genjis
+    category: saddle
+
+  - id: 0xB5
+    name: ribbon
+    category: saddle
+
+  - id: 0xB6
+    name: grudge
+    category: saddle
+
+  - id: 0xB7
+    name: brandname
+    category: saddle
+  #### Equipment: Collar ####
+  - id: 0xB8
+    name: magic
+    category: collar
+
+  - id: 0xB9
+    name: life
+    category: collar
+
+  - id: 0xBA
+    name: guard
+    category: collar
+
+  - id: 0xBB
+    name: neutral
+    category: collar
+
+  - id: 0xBC
+    name: stamina
+    category: collar
+
+  - id: 0xBD
+    name: burden
+    category: collar
+
+  - id: 0xBE
+    name: energy
+    category: collar
+
+  - id: 0xBF
+    name: recover
+    category: collar
+
+  - id: 0xC0
+    name: unlucky
+    category: collar
+
+  - id: 0xC1
+    name: endure
+    category: collar
+
+  - id: 0xC2
+    name: strikeout
+    category: collar
+
+  - id: 0xC3
+    name: memory
+    category: collar
+
+  - id: 0xC4
+    name: no_magic
+    category: collar
+
+  - id: 0xC5
+    name: cursed
+    category: collar
+
+  - id: 0xC6
+    name: no_traps
+    category: collar
+
+  - id: 0xC7
+    name: penalty
+    category: collar
+
+  - id: 0xC8
+    name: bargain
+    category: collar
+
+  - id: 0xC9
+    name: crazy_claw
+    category: collar
+
+  - id: 0xCA
+    name: crazy_saddle
+    category: collar
+
+  - id: 0xCB
+    name: waterwalk
+    category: collar
+
+  - id: 0xCC
+    name: demon
+    category: collar
+
+  - id: 0xCD
+    name: brandname
+    category: collar
+
+  ### Stones ###
+  - id: 0xCE
+    name: stone
+    category: stone
+
+  - id: 0xCF
+    name: hard
+    category: stone
+
+  - id: 0xD0
+    name: power
+    category: stone
+
+  - id: 0xD1
+    name: crash
+    category: stone
+
+  - id: 0xD2
+    name: warp
+    category: stone
+  ### Others ###
+  - id: 0xD3
+    name: empty
+    category: other
+
+  - id: 0xD4
+    name: gil
+    category: other
+
+  - id: 0xD5
+    name: whistle
+    category: other
+
+  - id: 0xD6
+    name: teleport
+    category: other
+
+  - id: 0xD7
+    name: thief
+    category: other
+  ### Tags ###
+  - id: 0xD8
+    name: mystery
+    category: tag
+
+  - id: 0xD9
+    name: teleport
+    category: tag
+
+  - id: 0xDA
+    name: carry
+    category: tag
+
+  - id: 0xDB
+    name: pink
+    category: tag
+
+  - id: 0xDC
+    name: memory
+    category: tag
+
+  - id: 0xDD
+    name: no_brains
+    category: tag

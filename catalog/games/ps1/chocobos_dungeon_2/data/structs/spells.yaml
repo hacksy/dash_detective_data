@@ -1,0 +1,17 @@
+kind: struct
+
+id: spells
+
+fields:
+  - id: fire
+    type: uint8
+  - id: blizzard
+    type: uint8
+  - id: aero
+    type: uint8
+  - id: thunder
+    type: uint8
+  - id: quake
+    type: uint8
+  - id: drain
+    type: uint8
